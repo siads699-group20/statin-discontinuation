@@ -14,7 +14,7 @@ The pipeline downloads only the public-use files listed here.
 | `h249dta.zip` | Medical conditions file (2023) | <https://meps.ahrq.gov/mepsweb/data_files/pufs/h249/h249dta.zip> | <https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h249/h249cb.pdf> |
 
 These annual files include other panels where applicable. Filter annual records
-to Panel 27 (`PANEL = 27`) when preparing the study data. Panel 27 round 3
+to Panel 27 when preparing the study data. Panel 27 round 3
 appears in 2022 and 2023 (round three occurs in both)
 
 ### Download instructions for local development

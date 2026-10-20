@@ -1,8 +1,7 @@
-"""Download the MEPS ZIP files listed in README.md."""
+"""Download the approved MEPS ZIP files to data/raw/."""
 
 from __future__ import annotations
 
-import re
 import sys
 import tempfile
 import urllib.error
@@ -12,24 +11,29 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCES_PATH = ROOT / "README.md"
 RAW_DIR = ROOT / "data" / "raw"
-SOURCE_ROW = re.compile(r"^\| `([^`]+\.zip)` \|.*?<((?:https?://)[^>]+)> \|")
-
-
-def read_sources() -> list[tuple[str, str]]:
-    sources = []
-    for line in SOURCES_PATH.read_text(encoding="utf-8").splitlines():
-        match = SOURCE_ROW.match(line)
-        if match:
-            filename, url = match.groups()
-            if Path(filename).name != filename:
-                raise ValueError(f"Invalid filename: {filename}")
-            sources.append((filename, url))
-
-    if not sources:
-        raise ValueError(f"No ZIP sources found")
-    return sources
+SOURCES: tuple[tuple[str, str], ...] = (
+    (
+        "h252dta.zip",
+        "https://meps.ahrq.gov/mepsweb/data_files/pufs/h252/h252dta.zip",
+    ),
+    (
+        "h239adta.zip",
+        "https://meps.ahrq.gov/mepsweb/data_files/pufs/h239a/h239adta.zip",
+    ),
+    (
+        "h248adta.zip",
+        "https://meps.ahrq.gov/mepsweb/data_files/pufs/h248a/h248adta.zip",
+    ),
+    (
+        "h241dta.zip",
+        "https://meps.ahrq.gov/mepsweb/data_files/pufs/h241/h241dta.zip",
+    ),
+    (
+        "h249dta.zip",
+        "https://meps.ahrq.gov/mepsweb/data_files/pufs/h249/h249dta.zip",
+    ),
+)
 
 
 def is_valid_zip(path: Path) -> bool:
@@ -56,7 +60,7 @@ def download_file(url: str, dest: Path) -> None:
                     temporary_file.write(chunk)
 
         if not is_valid_zip(tmp):
-            raise ValueError(f"Downloaded file ivalid: {tmp}")
+            raise ValueError(f"Downloaded file is not a valid ZIP archive: {url}")
         tmp.replace(dest)
     finally:
         if tmp is not None:
@@ -65,13 +69,16 @@ def download_file(url: str, dest: Path) -> None:
 
 def main() -> int:
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    for filename, url in read_sources():
+    for filename, url in SOURCES:
         dest = RAW_DIR / filename
         if dest.exists():
             if is_valid_zip(dest):
                 print(f"Already downloaded and valid: {dest.relative_to(ROOT)}")
                 continue
-            raise ValueError(f"retrying: {dest}")
+            raise ValueError(
+                f"Existing file is not a valid ZIP archive; move it aside before "
+                f"retrying: {dest}"
+            )
 
         print(f"Downloading {filename} from {url}")
         try:
