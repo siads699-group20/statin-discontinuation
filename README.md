@@ -1,27 +1,53 @@
-# statin-discontinuation
-Predicting statin discontinuation risk with MEPS data, SHAP explainability, and a human-reviewed RAG agent. SIADS 699
+# Predicting Statin Discontinuation Risk
 
-## MEPS data sources
+An early-warning system that predicts which statin users are at risk of stopping
+their medication, explains why, and drafts a suggested next action for a
+pharmacist or care manager to review.
 
-The pipeline downloads only the public-use files listed here.
+> ⚠️ Prototype for a University of Michigan capstone (SIADS 699).
+> Not for clinical or coverage decisions.
 
-| File | Description | Download URL | Codebook |
-|---|---|---|---|
-| `h252dta.zip` | Longitudinal file, Panel 27 (2022–23); person and five-round follow-up data | <https://meps.ahrq.gov/mepsweb/data_files/pufs/h252/h252dta.zip> | <https://meps.ahrq.gov/data_stats/download_data/pufs/h252/h252cb.pdf> |
-| `h239adta.zip` | Prescribed medicines file (2022) | <https://meps.ahrq.gov/mepsweb/data_files/pufs/h239a/h239adta.zip> | <https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_codebook.jsp?PUFId=H239A> |
-| `h248adta.zip` | Prescribed medicines file (2023) | <https://meps.ahrq.gov/mepsweb/data_files/pufs/h248a/h248adta.zip> | <https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h248a/h248acb.pdf> |
-| `h241dta.zip` | Medical conditions file (2022) | <https://meps.ahrq.gov/mepsweb/data_files/pufs/h241/h241dta.zip> | <https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_codebook.jsp?PUFId=H241> |
-| `h249dta.zip` | Medical conditions file (2023) | <https://meps.ahrq.gov/mepsweb/data_files/pufs/h249/h249dta.zip> | <https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h249/h249cb.pdf> |
+## How it works
 
-These annual files include other panels where applicable. Filter annual records
-to Panel 27 when preparing the study data. Panel 27 round 3
-appears in 2022 and 2023 (round three occurs in both)
+1. **Predict:** a model scores each patient's risk of stopping statins.
+2. **Explain:** SHAP shows the main drivers of that risk (for example, high out-of-pocket cost).
+3. **Retrieve:** a RAG pipeline finds relevant guidance from public clinical documents.
+4. **Draft:** an agent suggests a next action, with citations.
+5. **Review:** a person approves, edits, or rejects it in the Streamlit app.
 
-### Download instructions for local development
+## Data
 
-From the repository root, run:
+We use public MEPS (Medical Expenditure Panel Survey) data from AHRQ.
+The data is not stored in this repo.
+See [docs/meps_sources.md](docs/meps_sources.md) for the file list and links.
 
-```powershell
-python src/download_meps.py
-```
+## Getting started
 
+1. Clone the repo
+2. Install packages: `pip install -r requirements.txt`
+3. Download the data: `python scripts/download_meps.py`
+4. Run the notebooks in order, starting with `notebooks/01_run_pipeline.ipynb`
+
+## Repo structure
+
+- `docs/` – project documentation
+- `scripts/` – data download script
+- `notebooks/` – analysis, modeling, RAG, and agent work
+- `app/` – Streamlit app
+- `outputs/` – results and charts
+
+## Results
+
+Coming soon.
+
+## Team
+
+SIADS 699 Group 20: Maria Febus, [Teammate 2], [Teammate 3], [Teammate 4]
+
+## Use of AI tools
+
+See [docs/ai_use.md](docs/ai_use.md).
+
+## License
+
+[To be decided by the team]
