@@ -1,26 +1,24 @@
 # MEPS Data Sources
 
-**Purpose:** The official list of MEPS files used in this project. The download script reads only from this list.
+**Purpose:** The official list of MEPS files used in this project, with the links `src/download_meps.py` downloads from.
 **Owner:** TBD
-**Last updated:** YYYY-MM-DD
+**Last updated:** 2026-10-20
 
 ---
 
 ## Files
 
-| File | Description | Year(s) | Download page |
+| File | Description | Year(s) | Download link |
 |------|-------------|---------|---------------|
-| HC-252 | Longitudinal file, Panel 27 | 2022–2023 | [HC-252](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252) |
-| HC-239A | Prescribed Medicines | 2022 | [HC-239A](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239A) |
-| HC-248A | Prescribed Medicines | 2023 | [HC-248A](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-248A) |
-| HC-241 | Medical Conditions | 2022 | [HC-241](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-241) |
-| HC-249 | Medical Conditions | 2023 | [HC-249](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-249) |
-
-> TODO: Confirm each link opens the right page. Replace with direct download links if the team has them.
+| HC-252 | Longitudinal file, Panel 27 | 2022–2023 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h252/h252dta.zip |
+| HC-239A | Prescribed Medicines | 2022 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h239a/h239adta.zip |
+| HC-248A | Prescribed Medicines | 2023 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h248a/h248adta.zip |
+| HC-241 | Medical Conditions | 2022 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h241/h241dta.zip |
+| HC-249 | Medical Conditions | 2023 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h249/h249dta.zip |
 
 ## Rules
 
-- To add or change a file, update this table first, then the script.
+- These links must match the `SOURCES` list in `src/download_meps.py`. If you change one, change the other.
 - Downloaded files are saved to `data/raw/` and are never edited.
 
 ## Source
