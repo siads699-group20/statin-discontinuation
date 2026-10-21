@@ -48,7 +48,7 @@ An early-warning system that predicts which statin users are at risk of stopping
 |----------|--------------|
 | 01_run_pipeline | Links the MEPS files and builds the analysis dataset |
 | 02_eda | Explores the data |
-| 03_modeling | add the final models used|
+| 03_modeling | add the final models eval|
 | 04_model_evaluation | Checks performance, calibration, and fairness across subgroups |
 | 05_rag | Builds the guidance search (RAG) |
 | 06_agent | Drafts suggested next actions with LangGraph |
@@ -83,7 +83,7 @@ We use public **MEPS (Medical Expenditure Panel Survey)** data from the Agency f
 ## Requirements
 
 - Python 3.10+ *(TODO: confirm version with team)*
-- Packages listed in `requirements.txt`, including pandas, scikit-learn, XGBoost, SHAP, LangGraph, and Streamlit
+- Packages listed in `requirements.txt`, including pandas, scikit-learn, add model(s), SHAP, LangGraph, and Streamlit
 
 Check your Python version:
 
