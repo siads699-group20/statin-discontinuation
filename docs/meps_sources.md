@@ -1,7 +1,7 @@
 # MEPS Data Sources
 
-**Purpose:** Lists the MEPS files we use and where to download them. The download script uses these same links.
-**Owner:** Joseph Ferry
+**Purpose:** Lists the MEPS files we use and where to download them. The download script uses these same links.\
+**Owner:** Joseph Ferry\
 **Last updated:** 2026-10-20
 
 ---
