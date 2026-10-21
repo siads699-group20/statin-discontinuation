@@ -1,6 +1,6 @@
 # Cohort and Label Definitions
 
-**Purpose:** Defines who is in the study and what "discontinued" means. These are team decisions; the data-prep agent does not change them.
+**Purpose:** Defines who is in the study and what "discontinued" means.
 **Owner:** Whole team
 **Last updated:** YYYY-MM-DD
 **Status:** Draft – confirm with team
@@ -9,8 +9,8 @@
 
 ## Data source
 
-- **Primary:** MEPS Panel 27 (2022–2023)
-- **Fallback:** Panel 26
+MEPS Panel 27 (2022–2023)
+
 
 ## Cohort (who is included)
 
