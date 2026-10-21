@@ -1,3 +1,5 @@
+![Predicting Statin Discontinuation Risk](statin-banner.png)
+
 # Predicting Statin Discontinuation Risk
 
 An early-warning system that predicts which statin users are at risk of stopping their medication, explains what drives each patient's risk, and drafts a suggested next action for a pharmacist or care manager to review.
