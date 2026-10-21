@@ -1,4 +1,4 @@
-![Predicting Statin Discontinuation Risk](Predicting statin discontinuation risk.png.png)
+![Predicting Statin Discontinuation Risk](Predicting statin discontinuation risk.png)
 
 # Predicting Statin Discontinuation Risk
 
