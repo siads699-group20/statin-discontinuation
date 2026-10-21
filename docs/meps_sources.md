@@ -1,7 +1,7 @@
 # MEPS Data Sources
 
-**Purpose:** The official list of MEPS files used in this project, with the links `src/download_meps.py` downloads from.
-**Owner:** TBD
+**Purpose:** Lists the MEPS files we use and where to download them. The download script uses these same links.
+**Owner:** Joseph Ferry
 **Last updated:** 2026-10-20
 
 ---
@@ -16,10 +16,6 @@
 | HC-241 | Medical Conditions | 2022 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h241/h241dta.zip |
 | HC-249 | Medical Conditions | 2023 | https://meps.ahrq.gov/mepsweb/data_files/pufs/h249/h249dta.zip |
 
-## Rules
-
-- These links must match the `SOURCES` list in `src/download_meps.py`. If you change one, change the other.
-- Downloaded files are saved to `data/raw/` and are never edited.
 
 ## Source
 
