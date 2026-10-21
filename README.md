@@ -1,5 +1,7 @@
 ![Predicting Statin Discontinuation Risk](<Predicting statin discontinuation risk.png>)
 
+Team: The Guardians of the Statinverse: [Teammate 1], [Teammate 2], [Teammate 3], [Teammate 4]
+
 # Predicting Statin Discontinuation Risk
 
 An early-warning system that predicts which statin users are at risk of stopping their medication, explains what drives each patient's risk, and drafts a suggested next action for a pharmacist or care manager to review.
@@ -115,10 +117,6 @@ python --version
 Coming soon.
 
 ---
-
-## Team
-
-SIADS 699 Group 20: Maria Febus, [Teammate 2], [Teammate 3], [Teammate 4]
 
 ## Use of AI Tools
 
