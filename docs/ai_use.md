@@ -10,7 +10,7 @@
 
 | Tool | How we used it |
 |------|----------------|
-| Claude Code subagents | Data preparation and code review (see [Agent Setup](agent_setup.md)) |
+| Claude Code subagents if any | (see [Agent Setup](agent_setup.md)) |
 | *(add others)* | |
 
 ## AI inside the product
