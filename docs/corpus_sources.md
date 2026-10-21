@@ -20,4 +20,4 @@
 | 8 | Million Hearts Guide | Adherence | TODO | ☐ |
 | 9 | APhA Appointment-Based Model | Adherence | TODO | ☐ |
 
-> TODO: Add the remaining documents. Check each document's terms before storing a copy in the repo.
+
