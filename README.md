@@ -15,30 +15,25 @@ An early-warning system that predicts which statin users are at risk of stopping
 4. **Draft:** an agent suggests a next action, with citations.
 5. **Review:** a person approves, edits, or rejects it in the Streamlit app.
 
-Nothing happens automatically. Every suggestion requires human approval.
-See [System architecture](docs/architecture.md) for details.
-
 ---
 
 ## Directory Structure
 
 ```
-.
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── docs/
-│   ├── meps_sources.md
-│   ├── data_dictionary.md
-│   ├── data_understanding.md
-│   ├── data_assessment.md
-│   ├── cohort_and_label.md
-│   ├── corpus_sources.md
-│   ├── architecture.md
-│   ├── agent_setup.md
-│   └── ai_use.md
-├── scripts/
-│   └── download_meps.py
+├── .claude/
+│   └── agents/          ← Claude Code subagents
+├── agent/               ← RAG and next-action agent code
+├── app/                 ← Streamlit app
+├── data/                ← not pushed to GitHub (blocked in .gitignore)
+│   ├── raw/             ← original MEPS zip files, never edited
+│   ├── interim/         ← partly cleaned data
+│   └── processed/       ← analysis-ready data
+├── docs/                ← project documentation
+│   └── meps_sources.md
+├── models/              ← saved trained models
 ├── notebooks/
 │   ├── 01_run_pipeline.ipynb
 │   ├── 02_eda.ipynb
@@ -47,15 +42,12 @@ See [System architecture](docs/architecture.md) for details.
 │   ├── 05_rag.ipynb
 │   ├── 06_agent.ipynb
 │   └── 07_insights_visualizations.ipynb
-├── corpus/
-├── outputs/
-├── app/
-│   └── streamlit_app.py
-└── .claude/
-    └── agents/
+├── report/              ← final report
+├── results/             ← metrics, SHAP outputs, charts
+└── src/
+    └── download_meps.py ← downloads the MEPS files to data/raw/
 ```
 
-> The `data/` folder is not stored in this repo. The download script creates it on your computer.
 
 ---
 
