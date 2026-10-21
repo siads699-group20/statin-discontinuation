@@ -1,6 +1,6 @@
 ![Predicting Statin Discontinuation Risk](<Predicting statin discontinuation risk.png>)
 
-Team: The Guardians of the Statinverse: [Teammate 1], [Teammate 2], [Teammate 3], [Teammate 4]
+**The Guardians of the Statinverse:** [Teammate 1], [Teammate 2], [Teammate 3], [Teammate 4]
 
 # Predicting Statin Discontinuation Risk
 
