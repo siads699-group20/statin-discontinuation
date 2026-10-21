@@ -48,7 +48,7 @@ An early-warning system that predicts which statin users are at risk of stopping
 |----------|--------------|
 | 01_run_pipeline | Links the MEPS files and builds the analysis dataset |
 | 02_eda | Explores the data |
-| 03_modeling | Trains the logistic regression and gradient boosting models |
+| 03_modeling | add the final models used|
 | 04_model_evaluation | Checks performance, calibration, and fairness across subgroups |
 | 05_rag | Builds the guidance search (RAG) |
 | 06_agent | Drafts suggested next actions with LangGraph |
