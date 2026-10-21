@@ -25,29 +25,16 @@ An early-warning system that predicts which statin users are at risk of stopping
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── .claude/
-│   └── agents/          ← Claude Code subagents
-├── agent/               ← RAG and next-action agent code
-├── app/                 ← Streamlit app
-├── data/                ← not pushed to GitHub (blocked in .gitignore)
-│   ├── raw/             ← original MEPS zip files, never edited
-│   ├── interim/         ← partly cleaned data
-│   └── processed/       ← analysis-ready data
-├── docs/                ← project documentation
-│   └── meps_sources.md
-├── models/              ← saved trained models
-├── notebooks/
-│   ├── 01_run_pipeline.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_modeling.ipynb
-│   ├── 04_model_evaluation.ipynb
-│   ├── 05_rag.ipynb
-│   ├── 06_agent.ipynb
-│   └── 07_insights_visualizations.ipynb
-├── report/              ← final report
-├── results/             ← metrics, SHAP outputs, charts
-└── src/
-    └── download_meps.py ← downloads the MEPS files to data/raw/
+├── .claude/      ← Claude Code subagents
+├── agent/        ← RAG and next-action agent code
+├── app/          ← Streamlit app
+├── data/         ← not pushed to GitHub (blocked in .gitignore)
+├── docs/         ← project documentation
+├── models/       ← saved trained models
+├── notebooks/    ← Jupyter notebooks, numbered in run order
+├── report/       ← final report
+├── results/      ← metrics, SHAP outputs, charts
+└── src/          ← Python scripts (e.g., MEPS download)
 ```
 
 
