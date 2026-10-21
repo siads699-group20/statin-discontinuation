@@ -34,5 +34,4 @@ MEPS Panel 27 (2022–2023)
 
 ## Known limitations
 
-- People who leave the survey (attrition) are excluded, which may make the cohort healthier than the general population.
-- We can't tell if a patient chose to stop or a doctor stopped the drug.
+
