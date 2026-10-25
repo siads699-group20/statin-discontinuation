@@ -2,23 +2,19 @@
 
 **Purpose:** Defines who is in the study and what "discontinued" means.
 **Owner:** Whole team
-**Last updated:** YYYY-MM-DD
-**Status:** Draft – confirm with team
+**Last updated:** 2026-10-24
+**Status:** Confirmed by the team
 
 ---
-
-## Data source
-
-MEPS Panel 27 (2022–2023)
-
 
 ## Cohort (who is included)
 
 | Rule | Definition |
 |------|------------|
-| Age | Adults 18 and older |
-| Follow-up | Has data in all 5 rounds |
-| Established statin user | At least one statin purchase in **both** round 1 and round 2 |
+| Age | Age 18 or older at round 1 (`AGE1X >= 18`) |
+| Follow-up | Observed through all five rounds (`ALL5RDS = 1`) |
+| Exclusions | Exclude people reported as deceased, institutionalized, active-duty military, or moved out of the country (`DIED`, `INST`, `MILITARY`, or `LEFTUS` = 1) |
+| Baseline statin use | At least one statin purchase across rounds 1–2 (in either round) |
 
 ## Label (the outcome we predict)
 
@@ -31,7 +27,30 @@ MEPS Panel 27 (2022–2023)
 
 - Switching from one statin to another counts as **continued**.
 - All model features come only from rounds 1–2, to prevent data leakage.
+- Report the number of people remaining and excluded at each cohort step.
+- Report both outcome counts and proportions in the eligible cohort.
+- MEPS uses numeric status codes; the Panel 27 file represents the exclusion
+  flags as 0 (no) and 1 (yes), and `ALL5RDS` as 1 (yes) and 0 (no).
+- Statin purchases are flagged using MEPS therapeutic subclass code 173 in
+  either subclass field, or a recognized generic statin name. The team should
+  review the complete statin identification list separately under KAN-17.
+- Round 3 appears in both prescribed-medicines files. Deduplicate repeated
+  purchases by person and prescription-record ID. If duplicate copies disagree
+  on statin identification, treat the purchase as a statin and report the
+  conflict count so a possible continuation is not silently labeled as
+  discontinuation.
 
 ## Known limitations
 
+- The outcome is **no observed purchase** in rounds 3–5, not proof that the
+  patient chose to stop taking a statin. MEPS does not establish the reason.
+- Purchases are observed by interview round, not exact fill dates or days
+  covered, so the outcome is coarser than a claims-based adherence measure.
 
+## Reproducible build
+
+From the repository root, run:
+
+```powershell
+python src/build_study_cohort.py
+```
