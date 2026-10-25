@@ -36,7 +36,7 @@ An early-warning system that predicts which statin users are at risk of stopping
 ├── notebooks/    ← Jupyter notebooks, numbered in run order
 ├── report/       ← final report
 ├── results/      ← metrics, SHAP outputs, charts
-└── src/          ← Python scripts (e.g., MEPS download)
+└── src/          ← Python scripts (MEPS download and cohort build)
 ```
 
 
@@ -46,7 +46,7 @@ An early-warning system that predicts which statin users are at risk of stopping
 
 | Notebook | What it does |
 |----------|--------------|
-| 01_run_pipeline | Links the MEPS files and builds the analysis dataset |
+| 01_run_pipeline | Builds the study cohort and analysis dataset |
 | 02_eda | Explores the data |
 | 03_modeling | add the final models eval|
 | 04_model_evaluation | Checks performance, calibration, and fairness across subgroups |
@@ -106,9 +106,13 @@ python --version
    ```
 3. **Download the data**
    ```
-   python scripts/download_meps.py
+   python src/download_meps.py
    ```
-4. **Run the notebooks in order**, starting with `notebooks/01_run_pipeline.ipynb`
+4. **Build the confirmed study cohort and label**
+   ```
+   python src/build_study_cohort.py
+   ```
+5. **Run the notebooks in order**, starting with `notebooks/01_run_pipeline.ipynb`
 
 ---
 
