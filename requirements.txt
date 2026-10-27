@@ -1,0 +1,29 @@
+# RAG + agent — SIADS 699 Group 20
+# Lets pip find the smaller CPU-only PyTorch (needed by sentence-transformers):
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Loading and chunking
+langchain==1.4.4
+langchain-core==1.6.9
+langchain-text-splitters==1.1.3
+pymupdf==1.28.2            # read PDFs, handles two-column layouts
+
+# Embeddings (local)
+sentence-transformers==6.1.0
+langchain-huggingface==1.2.3
+
+# Vector store
+chromadb==1.5.9
+langchain-chroma==1.1.0
+
+# Agent
+langgraph==1.2.14
+langchain-groq==1.1.3
+
+# Judge
+langchain-google-genai==4.4.1
+
+# Evaluation and utilities
+pandas==2.1.4              # Deepnote's toolkit requires pandas < 2.2
+scikit-learn==1.9.1
+python-dotenv==1.2.4
