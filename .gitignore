@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MEPS data never goes in the repo (lives in the shared UMich Drive)
+*.dta
+**/raw/
+*.parquet
