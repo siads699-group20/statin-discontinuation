@@ -1,0 +1,2 @@
+feature_name,label,description
+statin_oop_cost,High out-of-pocket statin cost,EXAMPLE ROW - replace: patient's out-of-pocket payment for statin fills in rounds 1-2 (Prescribed Medicines file)
