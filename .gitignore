@@ -222,7 +222,10 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# MEPS data never goes in the repo (lives in the shared UMich Drive)
+# MEPS data never goes in the repo (lives in the shared UMich Drive or local drive)
 *.dta
 **/raw/
 *.parquet
+
+# RAG corpus PDFs are downloaded from their sources, never committed
+notebooks/corpus/
