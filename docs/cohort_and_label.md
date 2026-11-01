@@ -2,7 +2,7 @@
 
 **Purpose:** Defines who is in the study and what "discontinued" means.
 **Owner:** Whole team
-**Last updated:** 2026-10-24
+**Last updated:** 2026-10-28
 **Status:** Confirmed by the team
 
 ---
@@ -32,13 +32,18 @@
 - MEPS uses numeric status codes; the Panel 27 file represents the exclusion
   flags as 0 (no) and 1 (yes), and `ALL5RDS` as 1 (yes) and 0 (no).
 - Statin purchases are flagged using MEPS therapeutic subclass code 173 in
-  either subclass field, or a recognized generic statin name. The team should
-  review the complete statin identification list separately under KAN-17.
+  either subclass field, or a recognized generic/brand statin name. Recognized
+  names are standardized to a canonical generic when possible; class-coded
+  purchases with an unknown name remain included and are marked as unmapped.
+  The proposed brand list still requires team review under KAN-17.
 - Round 3 appears in both prescribed-medicines files. Deduplicate repeated
   purchases by person and prescription-record ID. If duplicate copies disagree
   on statin identification, treat the purchase as a statin and report the
-  conflict count so a possible continuation is not silently labeled as
-  discontinuation.
+  conflict count in `data/interim/linkage_data_quality.csv` so a possible
+  continuation is not silently labeled as discontinuation.
+- The deduplicated statin purchase extract is written to
+  `data/interim/statin_purchases.csv`; the mapping and unresolved-name counts
+  are in `data/interim/linkage_data_quality.csv`.
 
 ## Known limitations
 
@@ -49,8 +54,9 @@
 
 ## Reproducible build
 
-From the repository root, run:
+Build the linked history first, then create the cohort:
 
 ```powershell
+python -m src.build_person_round_history
 python src/build_study_cohort.py
 ```

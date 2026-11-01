@@ -104,15 +104,7 @@ python --version
    ```
    pip install -r requirements.txt
    ```
-3. **Download the data**
-   ```
-   python src/download_meps.py
-   ```
-4. **Build the confirmed study cohort and label**
-   ```
-   python src/build_study_cohort.py
-   ```
-5. **Run the notebooks in order**, starting with `notebooks/01_run_pipeline.ipynb`
+3. **Run the notebooks in order**, starting with `notebooks/01_run_pipeline.ipynb`. Notebook 1 runs the MEPS download, person-round linkage, and cohort/label scripts, then displays their summary outputs.
 
 ---
 
