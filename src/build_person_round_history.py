@@ -13,6 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 LONGITUDINAL_FILE = "h252dta.zip"
 PRESCRIPTION_FILES = ("h239adta.zip", "h248adta.zip")
+PRESCRIPTION_COST_FIELDS = {
+    "h239adta.zip": "RXSF22X",
+    "h248adta.zip": "RXSF23X",
+}
 CONDITION_FILES = ("h241dta.zip", "h249dta.zip")
 ROUNDS = range(1, 6)
 JOIN_KEYS = ["DUPERSID", "ROUND"]
@@ -243,6 +247,21 @@ def summarize_prescriptions(
                 if index < len(PRESCRIPTION_FILES)
                 else f"prescription_file_{index + 1}"
             )
+        if "RXSF" not in tagged:
+            cost_fields = {
+                field: field
+                for field in PRESCRIPTION_COST_FIELDS.values()
+                if field in tagged
+            }
+            if len(cost_fields) != 1:
+                raise ValueError(
+                    "Prescription records must contain normalized RXSF or "
+                    "exactly one year-specific RXSF field"
+                )
+            tagged["RXSF"] = tagged[cost_fields.popitem()[0]]
+        tagged["SOURCE_PRIORITY"] = tagged["SOURCE_FILE"].map(
+            {"h239adta.zip": 0, "h248adta.zip": 1}
+        ).fillna(index)
         tagged_files.append(tagged)
     records = pd.concat(tagged_files, ignore_index=True)
     missing = set(PRESCRIPTION_HISTORY_COLUMNS).difference(records.columns)
@@ -268,12 +287,27 @@ def summarize_prescriptions(
         .gt(1)
         .sum()
     )
+    statin_duplicate_records = duplicate_records.loc[
+        duplicate_records.groupby(PURCHASE_KEY, dropna=False)["is_statin"]
+        .transform("any")
+    ]
+    statin_cost_conflicts = int(
+        statin_duplicate_records.groupby(PURCHASE_KEY, dropna=False)["RXSF"]
+        .nunique(dropna=False)
+        .gt(1)
+        .sum()
+    )
+    round_records = round_records.sort_values(
+        "SOURCE_PRIORITY", kind="stable"
+    )
     purchases = round_records.groupby(
         PURCHASE_KEY, as_index=False, dropna=False
     ).agg(
         PURCHRD=("PURCHRD", "first"),
         DRUGIDX=("DRUGIDX", "first"),
         is_statin=("is_statin", "any"),
+        RXSF=("RXSF", "last"),
+        RXSF_SOURCE=("SOURCE_FILE", "last"),
         standardized_statin=("standardized_statin", clean_names),
         mapping_source=("mapping_source", clean_names),
         source_files=("SOURCE_FILE", clean_names),
@@ -292,6 +326,18 @@ def summarize_prescriptions(
         generic_drug_names=("RXDRGNAM", clean_names),
         reported_drug_names=("RXNAME", clean_names),
     ).rename(columns={"PURCHRD": "ROUND"})
+    statin_costs = purchases.loc[purchases["is_statin"]].groupby(
+        ["DUPERSID", "PURCHRD"], as_index=False, dropna=False
+    ).agg(
+        statin_rx_cost=("RXSF", lambda amounts: amounts.sum(min_count=1))
+    ).rename(columns={"PURCHRD": "ROUND"})
+    summary = summary.merge(
+        statin_costs,
+        on=["DUPERSID", "ROUND"],
+        how="left",
+        validate="one_to_one",
+    )
+    summary.loc[summary["statin_purchase_count"].eq(0), "statin_rx_cost"] = 0.0
     statin_purchases = purchases.loc[
         purchases["is_statin"],
         [
@@ -299,6 +345,8 @@ def summarize_prescriptions(
             "PURCHRD",
             "RXRECIDX",
             "DRUGIDX",
+            "RXSF",
+            "RXSF_SOURCE",
             "standardized_statin",
             "mapping_source",
             "source_files",
@@ -319,6 +367,10 @@ def summarize_prescriptions(
         "mapped_statin_purchases": int(statin_purchases["standardized_statin"].ne("").sum()),
         "class_code_statin_purchases_without_name_mapping": int(
             (statin_purchases["mapping_source"] == "CLASS_CODE_ONLY").sum()
+        ),
+        "statin_purchase_ids_with_conflicting_duplicate_costs": statin_cost_conflicts,
+        "statin_purchases_missing_out_of_pocket_cost": int(
+            statin_purchases["RXSF"].isna().sum()
         ),
     }
     return summary, statin_purchases, stats
@@ -458,6 +510,9 @@ def build_person_round_history(
         "active_ccsr_codes",
     ):
         history[column] = history[column].fillna("")
+    history.loc[
+        history["statin_purchase_count"].eq(0), "statin_rx_cost"
+    ] = 0.0
 
     join_audit = pd.DataFrame([prescription_audit, condition_audit])
     unmatched_keys = pd.concat(
@@ -476,7 +531,11 @@ def main() -> int:
     longitudinal = read_meps_file(LONGITUDINAL_FILE, LONGITUDINAL_COLUMNS)
     prescriptions = []
     for filename in PRESCRIPTION_FILES:
-        frame = read_meps_file(filename, PRESCRIPTION_HISTORY_COLUMNS)
+        cost_field = PRESCRIPTION_COST_FIELDS[filename]
+        frame = read_meps_file(
+            filename, PRESCRIPTION_HISTORY_COLUMNS + (cost_field,)
+        )
+        frame = frame.rename(columns={cost_field: "RXSF"})
         frame["SOURCE_FILE"] = filename
         prescriptions.append(frame)
     conditions = tuple(

@@ -113,6 +113,54 @@ def build_study_cohort(
     return cohort, pd.DataFrame(flow), label_balance, quality
 
 
+def build_baseline_dataset(
+    history: pd.DataFrame,
+    cohort: pd.DataFrame,
+) -> pd.DataFrame:
+    """Make one baseline feature row per cohort member from rounds 1 and 2."""
+    if cohort["DUPERSID"].isna().any() or cohort["DUPERSID"].duplicated().any():
+        raise ValueError("Study cohort must have one non-missing row per person")
+
+    baseline = history.loc[history["ROUND"].isin((1, 2))].copy()
+    if baseline.duplicated(["DUPERSID", "ROUND"]).any():
+        raise ValueError("Baseline history has duplicate person/round rows")
+
+    wide = baseline.drop(columns="PANEL").set_index(
+        ["DUPERSID", "ROUND"]
+    ).unstack("ROUND")
+    wide.columns = [
+        f"{column}_round_{int(round_number)}"
+        for column, round_number in wide.columns
+    ]
+    wide = wide.reset_index()
+
+    baseline_rounds = baseline.groupby("DUPERSID")["ROUND"].nunique()
+    cohort_ids = set(cohort["DUPERSID"])
+    missing_baseline = cohort_ids.difference(baseline_rounds[baseline_rounds.eq(2)].index)
+    if missing_baseline:
+        raise ValueError(
+            f"{len(missing_baseline)} cohort members lack both baseline rounds"
+        )
+
+    dataset = cohort.merge(
+        wide,
+        on="DUPERSID",
+        how="left",
+        validate="one_to_one",
+    )
+    if len(dataset) != len(cohort) or dataset["DUPERSID"].duplicated().any():
+        raise ValueError("Baseline dataset must retain one row per cohort member")
+
+    round_costs = [
+        "statin_rx_cost_round_1",
+        "statin_rx_cost_round_2",
+    ]
+    dataset["statin_rx_cost_baseline_total"] = dataset[round_costs].sum(
+        axis=1, min_count=1
+    )
+    return dataset
+
+
 def main() -> int:
     if not HISTORY_FILE.exists():
         raise FileNotFoundError(
@@ -122,13 +170,18 @@ def main() -> int:
 
     history = pd.read_csv(HISTORY_FILE, dtype={"DUPERSID": "string"})
     cohort, flow, label_balance, quality = build_study_cohort(history)
+    baseline_dataset = build_baseline_dataset(history, cohort)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     cohort.to_csv(OUTPUT_DIR / "study_cohort.csv", index=False)
+    baseline_dataset.to_csv(
+        OUTPUT_DIR / "baseline_person_dataset.csv", index=False
+    )
     flow.to_csv(OUTPUT_DIR / "cohort_flow.csv", index=False)
     label_balance.to_csv(OUTPUT_DIR / "label_balance.csv", index=False)
     quality.to_csv(OUTPUT_DIR / "cohort_data_quality.csv", index=False)
 
     print(f"Study cohort: {len(cohort):,} people")
+    print(f"Baseline person-level dataset: {len(baseline_dataset):,} people")
     print(f"Outputs written to {OUTPUT_DIR.relative_to(ROOT)}")
     return 0
 

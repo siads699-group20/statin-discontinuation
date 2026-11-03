@@ -2,7 +2,7 @@
 
 **Purpose:** Defines who is in the study and what "discontinued" means.
 **Owner:** Whole team
-**Last updated:** 2026-10-28
+**Last updated:** 2026-11-03
 **Status:** Confirmed by the team
 
 ---
@@ -44,6 +44,15 @@
 - The deduplicated statin purchase extract is written to
   `data/interim/statin_purchases.csv`; the mapping and unresolved-name counts
   are in `data/interim/linkage_data_quality.csv`.
+- Statin out-of-pocket cost is the imputed amount paid by self or family
+  (`RXSF22X` in HC-239A and `RXSF23X` in HC-248A). It is summed across statin
+  purchases for each person-round in `person_round_history.csv`. Where
+  round-3 copies disagree, the newer HC-248A / `RXSF23X` amount is used and
+  the number of conflicting statin-purchase IDs is logged.
+- `data/processed/baseline_person_dataset.csv` filters the history to rounds
+  1 and 2, reshapes those baseline fields to one row per person, and joins the
+  study-cohort label. It includes cost by round and the combined rounds 1–2
+  statin cost.
 
 ## Known limitations
 

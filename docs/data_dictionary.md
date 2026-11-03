@@ -2,7 +2,7 @@
 
 **Purpose:** Lists the variables we use, which file they come from, and what they mean.
 **Owner:** TBD
-**Last updated:** 2026-10-28
+**Last updated:** 2026-11-03
 
 ---
 
@@ -21,6 +21,7 @@
 | RXDRGNAM | HC-239A, HC-248A | Generic medication name | Statin identification | Preferred source for canonical generic name |
 | TC1S1_1, TC2S1_1 | HC-239A, HC-248A | Multum therapeutic subclasses | Statin identification | A value of 173 in either field flags a statin |
 | RXRECIDX | HC-239A, HC-248A | Prescription record identifier | Deduplication | Combined with DUPERSID to deduplicate annual-file overlap |
+| RXSF22X, RXSF23X | HC-239A, HC-248A | Imputed amount paid by self or family | Statin cost feature | Normalized as `RXSF`; sum for statin purchases by person-round |
 | *(example)* | HC-252 | Age | Feature | TODO |
 | *(example)* | HC-252 | Insurance type | Feature | TODO |
 
@@ -58,9 +59,17 @@ proposed and still requires the team review specified for KAN-17.
 
 `data/interim/statin_purchases.csv` contains one row per unique person and
 prescription record ID, with round, standardized generic name, matching method,
-source files, raw names, and subclass codes. `person_round_history.csv`
-contains round-level purchase counts and the standardized statin names.
-Both outputs are generated locally and remain Git-ignored.
+source files, raw names, subclass codes, and self/family cost. The 2022 file's
+`RXSF22X` and the 2023 file's `RXSF23X` are normalized to `RXSF`. When an
+overlapping round-3 purchase has different amounts in the two files, the
+pipeline uses HC-248A / `RXSF23X` and reports the number of conflicting
+statin-purchase IDs in the quality table.
+
+`person_round_history.csv` contains round-level statin purchase counts and
+cost totals. `data/processed/baseline_person_dataset.csv` keeps one row per
+study-cohort member, round-specific columns from rounds 1 and 2, the
+discontinuation label, and combined baseline statin cost. These generated
+outputs are local and remain Git-ignored.
 
 ## Missing-value codes
 
