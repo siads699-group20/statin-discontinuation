@@ -1,5 +1,0 @@
-patient_id,risk,risk_tier,prior_heart_or_stroke,top_driver_1,top_driver_2,top_driver_3
-Demo-01,0.78,High,True,statin_oop_cost,med_count,fill_change
-Demo-02,0.64,High,False,single_fill,cond_depression,statin_oop_cost
-Demo-03,0.41,Medium,False,med_count,cond_count,
-Demo-05,0.12,Low,False,fill_change,,

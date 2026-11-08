@@ -1,2 +1,0 @@
-patient_id,risk,risk_tier,prior_heart_or_stroke,top_driver_1,top_driver_2,top_driver_3
-P0001,0.78,High,True,statin_oop_cost,med_count,fill_change
