@@ -1,4 +1,4 @@
-query_id,query,chunk_id,passage,Final label
+query_id,query,chunk_id,passage,final_label
 Q01,patient says the statin copay is too expensive,05_aha_2019_statin_safety.pdf-3,"Abstract—One in 4 Americans >40 years of age takes a statin to reduce the risk of myocardial infarction, ischemic stroke, and 
 other complications of atherosclerotic disease. The most effective statins produce a mean reduction in low-density lipoprotein 
 cholesterol of 55% to 60% at the maximum dosage, and 6 of the 7 marketed statins are available in generic form, which makes 
