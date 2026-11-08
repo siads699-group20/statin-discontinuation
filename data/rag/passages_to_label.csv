@@ -1,0 +1,1691 @@
+query_id,query,rank,chunk_id,passage,labeler_1,labeler_2,final_label
+Q01,patient says the statin copay is too expensive,1,05_aha_2019_statin_safety.pdf-3,"Abstract—One in 4 Americans >40 years of age takes a statin to reduce the risk of myocardial infarction, ischemic stroke, and 
+other complications of atherosclerotic disease. The most effective statins produce a mean reduction in low-density lipoprotein 
+cholesterol of 55% to 60% at the maximum dosage, and 6 of the 7 marketed statins are available in generic form, which makes 
+them affordable for most patients. Primarily using data from randomized controlled trials, supplemented with observational data 
+where necessary, this scientific statement provides a comprehensive review of statin safety and tolerability. The review covers 
+the general patient population, as well as demographic subgroups, including the elderly, children, pregnant women, East Asians, 
+and patients with specific conditions such as chronic disease of the kidney and liver, human immunodeficiency viral infection,",,,
+Q01,patient says the statin copay is too expensive,2,04_nla_2022_statin_intolerance.pdf-22,"patients with high cholesterol who had taken a statin within 
+the past two years and experienced at least one statin- 
+associated symptom within the prior six months. 22 Of the 
+survey participants, a total of 332 individuals (22.1%) re- 
+ported having discontinued statin therapy; the main reasons 
+given for discontinuation were due to being bothered by, or 
+intolerant of, side effects. Those who had discontinued statin 
+therapy also reported experiencing more severe symptoms, 
+which were predominantly musculoskeletal in nature, than 
+those who continued to take a statin. The STATE survey was 
+designed to assess patient experiences with statin therapy and 
+did not account for whether the symptoms that led to discon- 
+tinuation were truly related to the pharmacologic effects of 
+statin therapy or only perceived to be so. Also, data from the 
+STATE survey cannot be used to estimate the prevalence of 
+statin intolerance in clinical practice but do support the view",,,
+Q01,patient says the statin copay is too expensive,3,01_acc_aha_2026_dyslipidemia_guideline.pdf-388,"A meta-analysis of individual participant data from 28
+RCTs found that only 8% of participants in trials of
+preventive statin therapy were aged $75 years, and
+statin therapy in this group produced a 13% RRR in
+major vascular events per 1.0 mmol/L (38.7 mg/dL)
+reduction in LDL-C, with reductions driven by fewer
+major
+coronary
+events
+but
+not
+overall
+mortality,
+Recommendations for Older Adults
+Referenced studies that support recommendations are
+summarized in the Evidence Table.
+COR
+LOE
+RECOMMENDATIONS
+1
+C-EO
+1. In older adults, the benefit-risk dis-
+cussion should include patient pri-
+orities, functional status,
+multimorbidity, frailty, poly-
+pharmacy, and life expectancy, and
+should not be based solely on chro-
+nological age when considering the
+decision to discontinue LLT.1-3
+2b
+B-NR
+2. In adults aged >75 years with an
+estimated life expectancy of at least
+2.5 years, it may be reasonable to
+initiate moderate-intensity statin
+therapy after a clinician–patient",,,
+Q01,patient says the statin copay is too expensive,4,01_acc_aha_2026_dyslipidemia_guideline.pdf-256,"an expected LDL-C lowering of $50%. Data from 4
+large-scale,
+exclusively
+primary-prevention
+RCTs
+demonstrated that moderate-intensity statin ther-
+apy7-10 and high-intensity statin therapy are associ-
+ated with ASCVD risk reduction, and those assigned
+Blumenthal et al
+J A C C V O L . 8 7 , N O . 1 9 , 2 0 2 6
+2026 Dyslipidemia Guideline
+M A Y 1 9 , 2 0 2 6 : 2 6 2 4 – 2 7 5 7
+2670",,,
+Q01,patient says the statin copay is too expensive,5,01_acc_aha_2026_dyslipidemia_guideline.pdf-357,"score $300 had similar annualized mortality risks as
+FOURIER participants categorized as stable secondary
+prevention with a single prior MI event.6 Among study
+participants from the St. Francis Heart Study who were
+followed for a mean of 4.3 years, post hoc analyses
+demonstrated a significant reduction in MACE with
+statin treatment in the subset of individuals with a
+baseline CAC score of $400 and also in those with a
+family
+history
+of
+premature
+CAD
+and
+high
+CAC
+scores.4,26 In a large prospectively observed cohort
+study of individuals without ASCVD, individuals with a
+CAC score $400 derived greater benefit from statin
+therapy with reduction in MACE events compared with
+those not treated with statins.9 Based on comparable
+levels of risk and likelihood of benefit, in adults with a
+CAC score of $300, treatment with LLT to achieve at
+FIGURE 13
+Managing Adults With Subclinical Atherosclerosis",,,
+Q02,patient's insurance stopped covering their cholesterol medicine,1,04_nla_2022_statin_intolerance.pdf-22,"patients with high cholesterol who had taken a statin within 
+the past two years and experienced at least one statin- 
+associated symptom within the prior six months. 22 Of the 
+survey participants, a total of 332 individuals (22.1%) re- 
+ported having discontinued statin therapy; the main reasons 
+given for discontinuation were due to being bothered by, or 
+intolerant of, side effects. Those who had discontinued statin 
+therapy also reported experiencing more severe symptoms, 
+which were predominantly musculoskeletal in nature, than 
+those who continued to take a statin. The STATE survey was 
+designed to assess patient experiences with statin therapy and 
+did not account for whether the symptoms that led to discon- 
+tinuation were truly related to the pharmacologic effects of 
+statin therapy or only perceived to be so. Also, data from the 
+STATE survey cannot be used to estimate the prevalence of 
+statin intolerance in clinical practice but do support the view",,,
+Q02,patient's insurance stopped covering their cholesterol medicine,2,05_aha_2019_statin_safety.pdf-46,"uation (60%), statin nonadherence (52%), and statin switching 
+(33%). Approximately one-third of those who stopped statin 
+therapy because of muscle adverse events did not talk to their 
+doctor before they discontinued the statin.
+In a large, retrospective cohort study in eastern 
+Massachusetts,6 11 124 (10.3%) of 107 835 statin-treated 
+patients were reported as having had a statin-associated ad-
+verse event that led to discontinuation of statin therapy. 
+Musculoskeletal complaints accounted for 40% of these dis-
+continuations. Of the 6579 patients rechallenged with statins, 
+6064 (92%) were found to be on statin therapy 1 year after the 
+reporting of the original statin-related event, which indicates 
+that the vast majority of these patients were subsequently able 
+to tolerate statins.
+In a multinational internet survey of 810 statin prescribers 
+(mainly cardiologists) across 13 countries,10 those surveyed 
+estimated that 6% of their patients were statin intolerant be-",,,
+Q02,patient's insurance stopped covering their cholesterol medicine,3,01_acc_aha_2026_dyslipidemia_guideline.pdf-499,"associated
+rhabdomyolysis
+may
+need
+to
+discontinue
+statin therapy indefinitely, although reversible causes
+should be managed, and rechallenge should be done with
+caution.29
+Statin-associated
+autoimmune
+myopathy
+(muscle weakness, marked and persistent CK elevation,
+presence
+of
+3-hydroxy-3-methylglutaryl-
+coenzyme
+(HMG-CoA) reductase antibodies, necrotizing myopathy,
+and lack of or incomplete resolution on statin discontin-
+uation) is rare but requires statin cessation, avoidance of
+all potential myotoxic pharmacotherapy, and may require
+additional therapy directed at the autoimmune process.30
+Other LDL-C–lowering therapies such as ezetimibe and
+PCSK9i are generally well tolerated. Bempedoic acid is well
+tolerated but elevated blood urea nitrogen and creatinine
+(without impaired kidney function) and increased uric
+acid levels have been reported and require monitoring.
+Bile acid sequestrants are not often used due to poor
+Continued
+COR
+LOE
+RECOMMENDATIONS
+2a
+B-R",,,
+Q02,patient's insurance stopped covering their cholesterol medicine,4,05_aha_2019_statin_safety.pdf-72,"clearly discernible, it is reasonable to recommend a “statin 
+holiday” for 1 to 2 weeks and determine whether symptoms 
+resolve. If so, it can be difficult for both clinicians and patients 
+to believe the symptoms are not caused by the statin. A suc-
+cessful rechallenge without symptoms would provide evi-
+dence that the initial SAMS were unrelated to statin therapy, 
+but sometimes the symptoms recur with each rechallenge. 
+Although SAMS can usually be explained by patient expecta-
+tions of harm, as discussed previously, the symptoms are real 
+and can be severe. SAMS are a common cause of stopping 
+statins and a barrier that impedes long-term adherence.10 As 
+expected, discontinuation is strongly associated in observa-
+tional studies with higher cardiovascular event rates.101
+When a patient reports muscle symptoms, the possibility 
+of an adverse statin drug interaction should be borne in mind 
+and dealt with, as addressed elsewhere in this statement (see",,,
+Q02,patient's insurance stopped covering their cholesterol medicine,5,05_aha_2019_statin_safety.pdf-9,"(RCTs) and subsequent meta-analyses proved that statins signifi-
+cantly reduce CVD, including myocardial infarction (MI) and 
+stroke, as well as death from cardiovascular causes.3,4
+According to the Centers for Disease Control and 
+Prevention, >25% of US adults >40 years of age take a statin, 
+which translates to >25 million men and women.5 Despite 
+the cardiovascular benefits of statins, however, long-term ad-
+herence to statin therapy is not optimal.6,7 In clinical practice, 
+patients report symptoms that they or their healthcare providers 
+attribute to the statin.8,9 This can lead to discontinuation of statin 
+therapy, which is estimated to occur in 10% of patients in the 
+United States,6,10 but considerably less often (2%–4%) in many 
+other countries.10,11 Other patients might discontinue statin 
+therapy because of fears of side effects, which may or may not 
+be treatment related, based on reports in the lay media12 or ad-",,,
+Q03,options for a patient on Medicare who can't afford prescriptions,1,07_medicare_prescription_payment_plan.pdf-5,"for your prescription(s)?
+If you qualify for Extra Help and think you’re paying the wrong amount, here’s what you can do:
+Contact your drug plan. Your plan may ask for proof that you get Extra Help so they can correct your costs.
+Get examples of proof
+.
+Tell your plan how many days of medication you have left. Your plan and Medicare will try to fix your issue before
+you run out of your medication.
+Call us at 1-800-MEDICARE (1-800-633-4227). TTY users can call 1-877-486-2048. We can tell you your level of
+Extra Help and help you get your costs fixed with the plan.
+Medicare’s Limited Income Newly Eligible Transition (LI NET) Program gives temporary Medicare Part D drug coverage to
+people who qualify for Extra Help or Medicaid but who aren't enrolled in a Medicare drug plan yet. You may be able to get
+some money back if you paid for covered Part D drugs after you qualified for LI NET. Keep your receipts with your",,,
+Q03,options for a patient on Medicare who can't afford prescriptions,2,06_medicare_part_d_costs.pdf-4,"months. Your plan will tell you when your premium withholding from your Social Security payment is set up. 
+What else do I need to know if I have premiums withheld from my Social Security payment?
+How can I lower my drug costs?
+If you qualify, there are programs that can lower your drug costs:
+Medicaid: A joint federal and state program that helps cover medical costs for some people with limited income and
+resources. Each state has different income and resource requirements that determine who’s eligible. Contact your
+state to find out if you’re eligible.
+Extra Help: A Medicare program that helps pay your drug costs. You automatically qualify for Extra Help if you qualify
+for Medicaid, one of the Medicare Savings Programs, or Supplemental Security Income (SSI) benefits from Social
+Security. If you don’t automatically qualify for Extra Help, you can apply.
+Medicare’s Limited Income Newly Eligible Transition (LI NET): A Medicare program that gives temporary Medicare",,,
+Q03,options for a patient on Medicare who can't afford prescriptions,3,07_medicare_prescription_payment_plan.pdf-4,"What you'll pay under Extra Help in 2027
+Plan premium: $0
+Plan deductible: $0
+Prescriptions you fill at one of your plan's participating pharmacies:
+Up to $5.80 for each generic drug
+Up to $14.40 for each brand-name drug
+Once your total drug costs (including certain payments made on your behalf, like through the Extra Help program)
+reach $2,400, you’ll pay $0 for each covered drug.
+If you also get full Medicaid coverage and are in the Qualified Medicare Beneficiary (QMB) program, you’ll pay no
+more than $4.90 for each covered drug. Find out if you may qualify for QMB or other Medicare Savings Programs.
+Learn more about the letters you get when you qualify for Extra Help. 
+Even if you don’t qualify for Extra Help now, you can reapply for Extra Help any time if your income and resources
+change.
+Do you think you're paying the wrong amount
+for your prescription(s)?
+If you qualify for Extra Help and think you’re paying the wrong amount, here’s what you can do:",,,
+Q03,options for a patient on Medicare who can't afford prescriptions,4,07_medicare_prescription_payment_plan.pdf-7,"Other ways to lower your prescription drug
+costs:  
+Join Medicare drug coverage (Part D):
+Compare Medicare drug plans to find a plan with lower drug costs.
+Check if the company that makes your drug offers help paying for it.
+Find out if your state offers help with drug costs.
+Ask your doctor if you can take a generic drug, or a cheaper brand-name drug (if one’s available).
+Check costs for mail-order pharmacies. Sometimes using a mail order pharmacy is cheaper.
+Learn if the Medicare Prescription Payment Plan might be able to help you manage your costs.
+Visit TrumpRx.gov:
+Find special offers and the lowest cash price on prescription drugs. You can’t buy drugs directly from TrumpRx.
+Compare TrumpRx prices with what you pay under your plan to make sure you get the best price.
+TrumpRx and other types of discount cards aren’t considered creditable coverage. When you use them (instead of",,,
+Q03,options for a patient on Medicare who can't afford prescriptions,5,07_medicare_prescription_payment_plan.pdf-6,"some money back if you paid for covered Part D drugs after you qualified for LI NET. Keep your receipts with your
+prescription drug prices, and call LI NET at 1-800-783-1307. TTY users can call 711. Someone will be available to take your
+call from 8 a.m. – 7 p.m. Eastern time (ET).
+Most people with Medicare can only switch plans at certain times of the year. If you have Medicaid or get Extra Help,
+you may be able to change your drug coverage once per month.
+Feedback",,,
+Q04,patient takes eight different pills a day and gets confused,1,03_who_2003_adherence_long_term_therapies.pdf-291,"about pain management; inadequate under-
+standing of drug dependence by health profes-
+sionals (5); health professionals’fears of investi-
+gation or sanction (19); poor delivery of care
+education to the patient (20); poor delivery of
+care education to family and caregivers (20);
+reluctance of health professionals to prescribe
+opioids for use at home (20)
+(+) Good relationship between patient and
+physician (14)
+(–) Nature of the patient’s illness; poor under-
+standing of the disease and its symptoms
+(–) Complex treatment regimens; taking too
+many tablets (9); frequency of dose; having no
+treatment instructions (9); misunderstanding
+instructions about how to take the drugs (9);
+bad tasting medication; adverse effects of treat-
+ment (9); inadequate treatment doses; perceived
+ineffectiveness (9) unnecessary duplicate pre-
+scribing (9)
+(+) Monotherapy with simple dosing schedules (9)
+(–) Forgetfulness (9); misconceptions about pain
+(11,12); difficulty in taking the preparation as pre-",,,
+Q04,patient takes eight different pills a day and gets confused,2,03_who_2003_adherence_long_term_therapies.pdf-229,"Patients who have changing work schedules or chaotic lifestyles may have difficulty establishing the
+habit of a new medication regimen. For some patients Monday–Friday adherence presents no problem,
+but weekends or holidays disrupt medication routines. Strategies to improve erratic adherence centre
+on simplification of the regimen (e.g. once-a-day dosing), establishing new habits through linking (e.g.
+keeping the MDI next to the toothbrush) and cues and memory aids (e.g. pill organizers).
+Unwitting nonadherence. Many patients may be inadvertently nonadherent to the prescribed therapy
+because they have failed to understand fully either the specifics of the regimen or the necessity for
+adherence. Studies have found that patients frequently forget instructions given to them by a physician
+during a clinic visit (23). MDIs, unlike pill bottles, do not usually have attached labels with dosing
+instructions. In asthma management it is common for patients to misunderstand the difference",,,
+Q04,patient takes eight different pills a day and gets confused,3,03_who_2003_adherence_long_term_therapies.pdf-471,"and instructions.
+Rather than associating doses of medication with times of the day, fitting the regimen to the patient’s
+lifestyle calls for working with the patient to associate medication doses with routine activities per-
+formed at the times that the medication should be taken (41). For example, morning doses can be asso-
+ciated with morning rituals (e.g. brushing teeth or reading the newspaper), and evening doses can be
+associated with evening routines (e.g. children’s homework or watching television news programmes).
+In general it is likely that accomplishing this “fit”will be easier with regimens that require infrequent
+dosing (i.e. once or twice a day). However, the principle of associating medications with daily activities
+can also accommodate more frequent and complex regimens.
+The most simple, effective and potent regimen will fail if patients experience side-effects that they per-",,,
+Q04,patient takes eight different pills a day and gets confused,4,03_who_2003_adherence_long_term_therapies.pdf-737,"inadequate treatment doses;perceived ineffec-
+tiveness; unnecessary duplicate prescribing
+(+) Monotherapy with simple dosing sched-
+ules
+(–) High frequency of dose; co-prescribing of
+benzodiazepines; inadequate doses of med-
+ication
+(+) Low frequency of dose; clear instructions
+on management of treatment
+(–) Complexity of treatment
+(+) Less frequent doses; monotherapy with
+simple dosing schedules, frequency of the
+self-care behaviour
+(–) Complex treatment regimens; misunder-
+standing instructions about how to take the
+drugs; adverse effects of treatment 
+(+) Monotherapy with simple dosing sched-
+ules
+(–) Forgetfulness; misunderstanding of
+instructions about medications; poor parental
+understanding of children’s asthma medica-
+tions; patient’s lack of perception of his or 
+her own vulnerability to illness; patients’lack
+of information about the prescribed daily
+dosage/misconception about the disease and
+treatments; persistent misunderstandings
+about side-effects; drug abuse",,,
+Q04,patient takes eight different pills a day and gets confused,5,03_who_2003_adherence_long_term_therapies.pdf-470,"that have demonstrated efficacy against variants resistant to current medications. However, forced
+selection limits the ability to fit a regimen to patients’lifestyles and schedules.
+Ideally, the health practitioner should work together with the patient to select a regimen that will fit
+with his or her lifestyle. If more than one regimen may be appropriate for a given patient, providers may
+want to discuss the regimen, the number of pills, the dosing schedule, instructions and potential side-
+effects with the patient.This discussion will foster a more collaborative and positive relationship
+between the practitioner and the patient, which is likely to enhance adherence (68). Once the regimen
+is decided upon, practitioners must make certain that patients fully understand the dosing schedules
+and instructions.
+Rather than associating doses of medication with times of the day, fitting the regimen to the patient’s",,,
+Q05,"older adult with diabetes, high blood pressure, and arthritis managing many medicines",1,03_who_2003_adherence_long_term_therapies.pdf-131,"countries (11,12).
+This demographic transition has led to an increased prevalence of chronic illnesses that are particularly
+common in the elderly.These include Alzheimer disease, Parkinson disease, depression, diabetes, con-
+gestive heart failure, coronary artery disease, glaucoma, osteoarthritis, osteoporosis and others.
+Many elderly patients present with multiple chronic diseases, which require complex long-term treat-
+ment to prevent frailty and disability. Furthermore, the elderly are the greatest consumers of prescrip-
+tion drugs. In developed countries, people over 60 years old consume approximately 50% of all pre-
+scription medicines (as much as three times more per capita than the general population) and are
+responsible for 60% of medication-related costs even though they represent only 12% to 18% of the
+population in these countries (13).
+Adherence to treatments is essential to the well-being of elderly patients, and is thus a critically impor-",,,
+Q05,"older adult with diabetes, high blood pressure, and arthritis managing many medicines",2,01_acc_aha_2026_dyslipidemia_guideline.pdf-386,"older adults should balance the goals of preventing
+ASCVD events with the increasing risk of medication-
+related
+harms
+that
+come
+with
+aging,
+as
+well
+as
+competing risks of multimorbidity, frailty, and func-
+tional decline.1-3 Neither initiation nor deprescribing
+decisions should be based solely on age or life expec-
+tancy. Although some older adults may prefer to
+minimize pill burden, others may prefer to start or
+continue LLT precisely because they are at high car-
+diovascular
+risk,
+particularly
+if
+their
+life-limiting
+illness
+is
+ASCVD.
+Therefore,
+decisions
+about
+LLT
+should result from clinician–patient discussions, be
+revisited over time, and include patients’ caregivers,
+primary care clinicians, and other specialists.1-3 A chief
+concern of many older adults is preservation of func-
+tion over prevention of specific conditions; however,
+data on the effects of LLT on functional status are
+unknown. Two ongoing large clinical trials of statins in",,,
+Q05,"older adult with diabetes, high blood pressure, and arthritis managing many medicines",3,03_who_2003_adherence_long_term_therapies.pdf-167,"2000,50:172-175.
+36. Sloss EM et al.Selecting target conditions for quality of care improvement in
+vulnerable older adults.Journal of the American Geriatrics Society,2000,
+48:363-369.
+37. Richardson R et al.Learning curve.Hypertension:catch them when they’re
+older.Nursing Times,2000,96:42-43.
+38. Kokubu F et al.[Hospitalization reduction by an asthma tele-medicine sys-
+tem japanese].Arerugi – Japanese Journal of Allergology,2000,49:19-31.
+39. Serrier P et al.[Evaluation of an educational program on asthma for pharma-
+cists.] [French] Presse Medicale,2000,29:1987-1991.
+40. Strobach D et al.[Patient medication counselling – patient counselling about
+discharge medication].[German] Medizinische Klinik,2000,95:548-551.
+41. Piette JD et al.Do automated calls with nurse follow-up improve self-care
+and glycemic control among vulnerable patients with diabetes? American
+Journal of Medicine,2000,108:20-27.
+42. Rice VH.Nursing interventions for smoking cessation.Cochrane Database of",,,
+Q05,"older adult with diabetes, high blood pressure, and arthritis managing many medicines",4,01_acc_aha_2026_dyslipidemia_guideline.pdf-14,". . . . . . . . . . . . . . . 2672
+4.2.5. Diabetes in Adults Without Established
+ASCVD . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2681
+4.2.6. Secondary ASCVD Prevention . . . . . . . . . 2685
+4.2.7. Management of Adults With Subclinical
+Coronary Atherosclerosis (Men $40 or
+Women $45 Years) . . . . . . . . . . . . . . . . . 2690
+4.2.8. Considerations in Patient
+Management . . . . . . . . . . . . . . . . . . . . . . . 2694
+4.2.9. Management of Hypertriglyceridemia . . 2706
+4.2.10. Approach to Patients With Elevated
+Lp(a) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2713
+4.2.11. Management of Statin-Attributed Muscle
+Symptoms . . . . . . . . . . . . . . . . . . . . . . . . . 2714
+5. COMPLICATIONS OF MANAGEMENT . . . . . . . . . . . 2720
+5.1. Medication Safety and Therapy-Associated
+Side Effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2720
+5.2. Statin-Cardiovascular Drug Interactions . . . . . . . 2723",,,
+Q05,"older adult with diabetes, high blood pressure, and arthritis managing many medicines",5,10_ags_2023_beers_criteria.pdf-63,"TABLE 3
+2023 American Geriatrics Society Beers Criteria® for potentially inappropriate medication use in older adults due to drug–disease or drug–syndrome interactions that may
+exacerbate the disease or syndrome.
+Disease or syndrome
+Drug(s)a
+Rationale
+Recommendation
+Quality of evidenceb
+Strength of
+recommendationb
+Cardiovascular
+Heart failure
+Cilostazol
+Dextromethorphan-quinidine
+Nondihydropyridine calcium channel
+blockers (CCBs)
+Diltiazem
+Verapamil
+Dronedarone
+NSAIDs and COX-2 inhibitors
+Thiazolidinediones
+Pioglitazone
+Potential to promote fluid retention and/or
+exacerbate heart failure (NSAIDs and COX-2
+inhibitors, non-dihydropyridine CCBs,
+thiazolidinediones); potential to increase mortality
+in older adults with heart failure (cilostazol and
+dronedarone); concerns about QT prolongation
+(dextromethorphan-quinidine).
+Note: This is not a comprehensive list of medications
+to avoid in patients with heart failure.
+Avoid:
+Cilostazol
+Dextromethorphan-quinidine",,,
+Q06,how a pharmacist can simplify a complicated medication schedule,1,10_ags_2023_beers_criteria.pdf-127,"and conveying stop orders to pharmacies are just some of
+the challenges that can arise. The panel encourages clini-
+cians to be aware of and develop skills to address these
+challenges. Useful resources include:
+• https://deprescribing.org/resources/—deprescribing
+resources, especially evidence-based guidelines and
+easy-to-use algorithms about when and how to stop
+common types of medications
+• https://www.deprescribingnetwork.ca/professionals—
+resources
+for
+healthcare
+professionals,
+including
+deprescribing-oriented patient handouts about medica-
+tions that are commonly inappropriate for older adults
+Systemic solutions are essential as well, for example
+increasing the adoption of the CancelRx Script Standard
+to communicate to pharmacies when a drug is stopped
+and should no longer be refilled.
+TABLE 10
+(Continued)
+Medication/Criterion
+Modification
+Medications that should be avoided or have their dosage reduced with reduced kidney function (Table 6)
+Nitrofurantoin",,,
+Q06,how a pharmacist can simplify a complicated medication schedule,2,03_who_2003_adherence_long_term_therapies.pdf-229,"Patients who have changing work schedules or chaotic lifestyles may have difficulty establishing the
+habit of a new medication regimen. For some patients Monday–Friday adherence presents no problem,
+but weekends or holidays disrupt medication routines. Strategies to improve erratic adherence centre
+on simplification of the regimen (e.g. once-a-day dosing), establishing new habits through linking (e.g.
+keeping the MDI next to the toothbrush) and cues and memory aids (e.g. pill organizers).
+Unwitting nonadherence. Many patients may be inadvertently nonadherent to the prescribed therapy
+because they have failed to understand fully either the specifics of the regimen or the necessity for
+adherence. Studies have found that patients frequently forget instructions given to them by a physician
+during a clinic visit (23). MDIs, unlike pill bottles, do not usually have attached labels with dosing
+instructions. In asthma management it is common for patients to misunderstand the difference",,,
+Q06,how a pharmacist can simplify a complicated medication schedule,3,03_who_2003_adherence_long_term_therapies.pdf-447,"A. Regimen-related factors 
+Complexity of regimen. For many chronicdiseases, research has shown that adherence decreases as the
+complexity of the medication regimen increases (i.e. the number of pills per dose and number of doses
+per day;the necessity to observe strict requirements related to the intake of food,and the existence of
+special requirements regarding fluid intake). Adherence to HIV medications is an extremely complicated
+process that includes both the drugs themselves and the adjustments to daily life necessary to provide
+the prerequisite conditions for effective drug therapy (13). Some regimens require several doses of
+medication per day together with various requirements or restrictions on food intake and other activi-
+ties.These complexities, in addition to the problems of toxicity and side-effects, can greatly influence an
+individual’s willingness and ability to adhere to the therapy (28–31).",,,
+Q06,how a pharmacist can simplify a complicated medication schedule,4,03_who_2003_adherence_long_term_therapies.pdf-470,"that have demonstrated efficacy against variants resistant to current medications. However, forced
+selection limits the ability to fit a regimen to patients’lifestyles and schedules.
+Ideally, the health practitioner should work together with the patient to select a regimen that will fit
+with his or her lifestyle. If more than one regimen may be appropriate for a given patient, providers may
+want to discuss the regimen, the number of pills, the dosing schedule, instructions and potential side-
+effects with the patient.This discussion will foster a more collaborative and positive relationship
+between the practitioner and the patient, which is likely to enhance adherence (68). Once the regimen
+is decided upon, practitioners must make certain that patients fully understand the dosing schedules
+and instructions.
+Rather than associating doses of medication with times of the day, fitting the regimen to the patient’s",,,
+Q06,how a pharmacist can simplify a complicated medication schedule,5,03_who_2003_adherence_long_term_therapies.pdf-423,"– emphasizing the consequences of nonadherence;
+– spending adequate time with the patient;
+– enquiring about adherence at each visit;
+– motivating patients to incorporate drug adherence into their lifestyles; and
+– designing and implementing intervention strategies to improve adherence to self-medication.
+These latter strategies include simplifying the regimen with careful explanation of the dosing schedule;
+reducing the number of medications and the frequency of doses; improving the medication routine
+through cognitive cueing and through structuring the task and the environment; providing the patients
+with control and choices; suggesting memory aids; linking doses to events in the patient’s daily sched-
+ule, or using alarm watches, calendar packs, pill cases, or specialized dose dispensers.
+WHO 2003
+90 ❘",,,
+Q07,patient stopped the statin because of muscle pain,1,05_aha_2019_statin_safety.pdf-80,"that interfere with statin metabolism.
+Many statin-treated patients in routine clinical practice re-
+port muscle symptoms, which could cause them to stop the 
+statin; this is a major barrier to effective long-term therapy. 
+Under the double-blind conditions of RCTs in a broad array 
+of patient types, there is little if any difference (at most 1%) in 
+the incidence of muscle symptoms between the statin and pla-
+cebo. Very few patients in these RCTs discontinued the study 
+medication because of these muscle symptoms, and the differ-
+ence in muscle-related discontinuation rates between patients 
+allocated to statin and those allocated to placebo was negli-
+gible (0.1%) and not significant. When patients with a history 
+of intolerance to multiple statins because of muscle symptoms 
+are rechallenged under double-blind conditions, the intoler-
+ance is generally not reproducible.
+There is increasing appreciation of the role of patient expec-",,,
+Q07,patient stopped the statin because of muscle pain,2,01_acc_aha_2026_dyslipidemia_guideline.pdf-470,"Synopsis
+Complaints of myalgia or muscle weakness, or the fear
+of developing these symptoms, are the most frequently
+reported reasons for failure to tolerate or adhere to statin
+therapy. These symptoms may occur with or without CK
+elevation. They may be due to the prescribed statin
+alone, altered statin metabolism due to DDI, excessive
+muscular activity, primary muscle or metabolic disor-
+ders,
+or
+patient
+expectations
+that
+statin
+therapy
+is
+responsible. A statin-related etiology is supported by
+Continued
+COR
+LOE
+RECOMMENDATIONS
+1
+B-R
+2. In adults with statin-attributed
+muscle symptoms, the clinician–
+patient discussion should acknowl-
+edge patient side effect concerns,
+inform the patient of the height-
+ened ASCVD risk associated with
+statin discontinuation, and provide
+alternative treatment options to
+reduce ASCVD risk.2,3
+1
+B-R
+3. In adults with clinical ASCVD who
+experience statin-attributed muscle
+symptoms on the recommended in-
+tensity of statin therapy (secondary",,,
+Q07,patient stopped the statin because of muscle pain,3,04_nla_2022_statin_intolerance.pdf-34,"cardiovascular risk and with 
+statin intolerance defined as 
+the inability to tolerate 2 or 
+more statins because of 
+unexplained skeletal 
+muscle-related symptoms, 
+other than those due to strain 
+or trauma that began or 
+increased during statin 
+treatment and resolved with 
+statin discontinuation. One of 
+the 2 statins had to have been 
+discontinued while at or 
+below the lowest approved 
+daily starting dose 
+Randomized, double-blind, 
+double-dummy, 
+active-controlled, parallel 
+group study 
+Patients with no 
+skeletal-muscled related AE 
+on placebo were randomized 
+to alirocumab, ezetimibe or 
+atorvastatin 10 mg/d (statin 
+rechallenge arm) for 24 
+weeks 
+n = 314 subjects randomized 
+Myalgia most common AE in all groups 
+Of the 63 randomized to atorvastatin, 14% 
+discontinued treatment due to 
+statin-associated muscle symptoms 
+Skeletal muscle-related events were less 
+frequent with alirocumab vs. atorvastatin 
+(HR 0.61, 95% CI 0.38-0.88, p = 0.042)",,,
+Q07,patient stopped the statin because of muscle pain,4,05_aha_2019_statin_safety.pdf-75,"Newman et al    Statin Safety and Associated Adverse Events    e47
+If SAMS do not resolve within a few weeks after statin 
+cessation (and especially with elevated CK levels), other 
+causes for the muscle symptoms, such as an underlying neu-
+romuscular disorder, including polymyalgia rheumatica, se-
+vere vitamin D deficiency, or, very rarely, immune-mediated 
+necrotizing myositis, should be considered. If persistent 
+muscle symptoms are clinically significant, the patient should 
+be referred to a neuromuscular specialist for evaluation and 
+treatment. The substantial advantage of remaining on statin 
+therapy should be discussed with the patient. Rechallenge is 
+a practical way forward, because it is usually possible to find 
+a statin regimen the patient will accept. In a large US cohort 
+study, 11 124 of 107 835 subjects (10%) discontinued statin 
+treatment because of adverse events considered statin related. 
+Of these, 6579 (59%) were rechallenged, and in them, some",,,
+Q07,patient stopped the statin because of muscle pain,5,05_aha_2019_statin_safety.pdf-72,"clearly discernible, it is reasonable to recommend a “statin 
+holiday” for 1 to 2 weeks and determine whether symptoms 
+resolve. If so, it can be difficult for both clinicians and patients 
+to believe the symptoms are not caused by the statin. A suc-
+cessful rechallenge without symptoms would provide evi-
+dence that the initial SAMS were unrelated to statin therapy, 
+but sometimes the symptoms recur with each rechallenge. 
+Although SAMS can usually be explained by patient expecta-
+tions of harm, as discussed previously, the symptoms are real 
+and can be severe. SAMS are a common cause of stopping 
+statins and a barrier that impedes long-term adherence.10 As 
+expected, discontinuation is strongly associated in observa-
+tional studies with higher cardiovascular event rates.101
+When a patient reports muscle symptoms, the possibility 
+of an adverse statin drug interaction should be borne in mind 
+and dealt with, as addressed elsewhere in this statement (see",,,
+Q08,patient worried the statin is damaging their liver,1,05_aha_2019_statin_safety.pdf-106,"als,45 noninfectious hepatitis was reported in 5 (0.1%) of 4798 
+patients taking atorvastatin 80 mg/d. Three of these were in 1 
+placebo-controlled study in 3086 patients with acute coronary 
+syndrome.140 Importantly, all cases resolved within 4 weeks 
+of drug discontinuation. In JUPITER, in which nearly 18 000 
+patients were randomized to rosuvastatin 20 mg or placebo for 
+1.9 years, hepatic disorder was a monitored adverse event, and 
+the rates were similar in the rosuvastatin and placebo groups, 
+2.4% versus 2.1% (P=0.13).39
+Severe liver injury related to statin therapy in clinical 
+practice has been described in case reports and registry stud-
+ies. After >20 years of clinical use, a 2009 literature review 
+identified only 40 case reports of statin-related drug-induced 
+liver injury,141 2 of which were fatal. Björnsson et al142 ana-
+lyzed drug-induced liver injury suspected to be caused by 
+Downloaded from http://ahajournals.org by on October 31, 2026",,,
+Q08,patient worried the statin is damaging their liver,2,05_aha_2019_statin_safety.pdf-110,"found to be either possibly or probably associated with statin 
+therapy. No cases were assessed as highly likely or defini-
+tively caused by statin therapy. The FDA concluded that there 
+was no increase in the incidence of fatal or severe liver in-
+jury despite the growing use of statin therapy since the 1990s. 
+Rechallenge with a statin could result in the same liver injury 
+and is not recommended.
+2.3.3. Conclusions
+Statins cause asymptomatic, dose-related confirmed eleva-
+tions >3 times the ULN in transaminases in ≈1% of patients, 
+but this alone does not indicate liver injury. Monitoring 
+transaminases is not useful for preventing clinically apparent 
+statin hepatotoxicity, which is extremely rare, occurring in 
+≈0.001% of patients. It is not currently possible to predict in 
+advance which patients will develop serious hepatotoxicity, 
+so providers need to be alert to symptoms and signs of this 
+rare complication, particularly in patients with preexisting 
+liver disease.",,,
+Q08,patient worried the statin is damaging their liver,3,05_aha_2019_statin_safety.pdf-105,"readily distinguished from a liver source by measuring CK, 
+which will be elevated if the source is muscle. Alcohol expo-
+sure can also increase AST more than ALT.
+2.3.2. Hepatotoxicity
+There were generally very low rates of severe liver injury in 
+the large statin RCTs, which suggests either that statins do 
+not cause severe liver injury or that the incidence of statin-
+related severe liver injury is too low to be detected in these 
+clinical trials. In EXCEL, the 48-week RCT of lovastatin 
+versus placebo in >8000 patients, described in the Muscle 
+section, there were no cases of clinically symptomatic hepa-
+titis.46 In HPS, in which >20 000 patients were randomized to 
+simvastatin 40 mg or placebo for 5 years, there were 6 and 9 
+cases, respectively, of clinical hepatitis.38 In a meta-analysis 
+of pooled individual patient data from early atorvastatin tri-
+als,45 noninfectious hepatitis was reported in 5 (0.1%) of 4798 
+patients taking atorvastatin 80 mg/d. Three of these were in 1",,,
+Q08,patient worried the statin is damaging their liver,4,05_aha_2019_statin_safety.pdf-221,"interferon-α and ribavirin in a clinical trial was associated 
+with improved virological responses in certain hepatitis C 
+virus genotypes.58,319–321 Given that hepatitis C infection is as-
+sociated with increased risk of CVD,322 use of statins in this 
+population to reduce this risk is recommended.
+There are limited data regarding the safety of statins in 
+individuals with hepatitis B. In a registry database of patients 
+with chronic hepatitis B in Taiwan, 6543 statin users were 
+found to have a lower incidence of cirrhosis and decompen-
+sated cirrhosis compared with nonusers.323
+5.4.4. Conclusions
+Although concerns have been raised regarding the use of 
+statins in patients with chronic liver disease, the data pro-
+vided to date suggest that statins are safe to use and do not 
+cause progression of liver disease in patients with NAFLD or 
+chronic viral hepatitis C. On that basis, there is no need to 
+avoid statin therapy in patients with stable chronic liver di-",,,
+Q08,patient worried the statin is damaging their liver,5,05_aha_2019_statin_safety.pdf-102,"that this represents a far less dramatic and threatening event 
+than the occurrence of MI, stroke, or cardiovascular death. 
+The increased risk of diabetes mellitus should not deter statin 
+use in patients considered to be at sufficiently high CVD risk 
+to warrant statin treatment, although it is prudent both to in-
+crease efforts at diabetes mellitus prevention and to screen for 
+the development of diabetes mellitus in patients at elevated 
+risk for diabetes mellitus, especially in those on intensive 
+statin therapy.
+2.3. Liver
+2.3.1. Transaminase Elevations
+Concern about statin effects on the liver originally stemmed 
+from animal safety studies. Lovastatin causes hepatocellular 
+injury in rats and liver necrosis in rabbits.134 Statins may be as-
+sociated with mild transaminase elevations <3 times the ULN, 
+sometimes in the context of nonalcoholic fatty liver disease 
+or alcohol use.135,136 The best available data find statins also",,,
+Q09,what to do when a patient feels tired after starting a statin,1,05_aha_2019_statin_safety.pdf-72,"clearly discernible, it is reasonable to recommend a “statin 
+holiday” for 1 to 2 weeks and determine whether symptoms 
+resolve. If so, it can be difficult for both clinicians and patients 
+to believe the symptoms are not caused by the statin. A suc-
+cessful rechallenge without symptoms would provide evi-
+dence that the initial SAMS were unrelated to statin therapy, 
+but sometimes the symptoms recur with each rechallenge. 
+Although SAMS can usually be explained by patient expecta-
+tions of harm, as discussed previously, the symptoms are real 
+and can be severe. SAMS are a common cause of stopping 
+statins and a barrier that impedes long-term adherence.10 As 
+expected, discontinuation is strongly associated in observa-
+tional studies with higher cardiovascular event rates.101
+When a patient reports muscle symptoms, the possibility 
+of an adverse statin drug interaction should be borne in mind 
+and dealt with, as addressed elsewhere in this statement (see",,,
+Q09,what to do when a patient feels tired after starting a statin,2,04_nla_2022_statin_intolerance.pdf-22,"patients with high cholesterol who had taken a statin within 
+the past two years and experienced at least one statin- 
+associated symptom within the prior six months. 22 Of the 
+survey participants, a total of 332 individuals (22.1%) re- 
+ported having discontinued statin therapy; the main reasons 
+given for discontinuation were due to being bothered by, or 
+intolerant of, side effects. Those who had discontinued statin 
+therapy also reported experiencing more severe symptoms, 
+which were predominantly musculoskeletal in nature, than 
+those who continued to take a statin. The STATE survey was 
+designed to assess patient experiences with statin therapy and 
+did not account for whether the symptoms that led to discon- 
+tinuation were truly related to the pharmacologic effects of 
+statin therapy or only perceived to be so. Also, data from the 
+STATE survey cannot be used to estimate the prevalence of 
+statin intolerance in clinical practice but do support the view",,,
+Q09,what to do when a patient feels tired after starting a statin,3,05_aha_2019_statin_safety.pdf-77,"During rechallenge, patients are likely to believe, quite 
+reasonably, that their symptoms are caused by the statin, espe-
+cially when they resolve after stopping the statin and then recur 
+on rechallenge. In a typical scenario, a clinician prescribes a 
+statin and appropriately warns a patient of the possibility of 
+myopathy. The patient returns with reports of muscle symp-
+toms with no obvious new cause, and the symptoms resolve 
+on stopping the statin. The clinician typically rechallenges the 
+patient with a lower dose of the same statin or with a differ-
+ent statin, an approach that is often but not always success-
+ful.6 SAMS that reoccur during rechallenge might convince 
+the patient and sometimes the clinician that the symptoms are 
+indeed caused by the statin. However, because the rechallenge 
+is not usually double-blind in the clinic, a positive rechallenge 
+does not demonstrate unequivocally that the symptoms are",,,
+Q09,what to do when a patient feels tired after starting a statin,4,05_aha_2019_statin_safety.pdf-120,"conclusive evidence for either cognitive benefit or harm from 
+statin therapy.
+Sleep disturbances and insomnia have also been re-
+ported in patients taking statins. Although there are anec-
+dotal reports related to nightmares and adverse sleep quality, 
+most notably with lovastatin, simvastatin, and rosuvastatin, 
+evidence from observational studies, some of the large statin 
+RCTs, and the few small RCTs that used polysomnography 
+have not supported this conclusion.156–160 For example, in 
+the CARDS trial of patients with type 2 diabetes mellitus, 
+reports of insomnia did not differ among patients random-
+ized to atorvastatin 10 mg/d (3.2%) or placebo (3.8%) during 
+the follow-up period of 3.9 years.129 Moreover, in JUPITER, 
+insomnia was reported in 222 patients (2.7%) allocated to 
+rosuvastatin 20 mg/d compared with 205 (2.5%) allocated to 
+placebo over a median of 2 years.161 A recent careful study-
+level meta-analysis of RCTs providing data on sleep, mood,",,,
+Q09,what to do when a patient feels tired after starting a statin,5,05_aha_2019_statin_safety.pdf-81,"ance is generally not reproducible.
+There is increasing appreciation of the role of patient expec-
+tations of harm as the cause of muscle and other symptoms in 
+statin-treated patients. The symptoms can be severe despite the 
+absence of a pharmacological basis in the vast majority of cases, 
+and they should never be dismissed by the clinician. Expectations 
+of harm are generated by appropriate clinician warnings about 
+the small risk of rhabdomyolysis and from negative information 
+in the media. Although muscle symptoms are very unlikely to be 
+caused by the statin, rechallenge with the same statin at a lower 
+dose or a different statin is useful as the first step to restore statin 
+therapy, which might be possible at or near the previous level 
+of intensity. Resuming and maintaining treatment with a statin 
+(when myopathy has been excluded) reduces the risk of ath-
+erosclerotic vascular events, which is especially important in 
+high-risk patients, such as those with preexisting CVD.",,,
+Q10,patient had a stroke last year and wants to stop the statin,1,05_aha_2019_statin_safety.pdf-202,"a reduction in recurrent stroke in those with a baseline is-
+chemic stroke (HR, 0.60; 95% CI, 0.48–0.99), but there was 
+no similar reduction among those with a baseline hemorrhagic 
+stroke (HR, 0.80; 95% CI, 0.62–1.27).
+Given the overall lack of relevant data, a decision ana-
+lytic model that simulated clinical trials was used to provide 
+guidance on the use of statins after intracerebral hemor-
+rhage.292 Data regarding the risk of intracerebral hemorrhage 
+in patients with recent intracerebral hemorrhage associated 
+with statin use came from the SPARCL trial. Some statins 
+(simvastatin, lovastatin, and rosuvastatin) moderately poten-
+tiate the anticoagulant activity of warfarin (see 3. Drug-Drug 
+Interactions), but atorvastatin, which does not, was the statin 
+used in SPARCL. A strategy of avoiding statins was favored, 
+particularly among those with a prior lobar hemorrhage re-
+gardless of a history of prior CVD. In the setting of primary",,,
+Q10,patient had a stroke last year and wants to stop the statin,2,02_uspstf_2022_statin_primary_prevention.pdf-25,"• The Centers for Disease Control and Prevention has information about cholesterol-lowering medications,
+including statins, at https://www.cdc.gov/cholesterol/treating_cholesterol.htm, and resources for clinicians at
+https://www.cdc.gov/cholesterol/educational_materials.htm
+Consider the patient’s age.
+• For adults aged 40 to 75 years:
+• Determine whether the patient has a cardiovascular risk factor (ie, dyslipidemia, diabetes, hypertension, or smoking).
+• Estimate CVD risk using a CVD risk estimator.
+• In patients who have a cardiovascular risk factor and an estimated 10-year CVD risk of 10% or greater, initiate a
+moderate-intensity statin after discussing the rationale and provided the patient agrees.
+• In patients who have a cardiovascular risk factor and an estimated 10-year CVD risk of 7.5% to less than 10%, the
+benefit of starting a statin is smaller, so clinicians should selectively offer a statin, taking patient values and
+preferences into account.",,,
+Q10,patient had a stroke last year and wants to stop the statin,3,05_aha_2019_statin_safety.pdf-203,"particularly among those with a prior lobar hemorrhage re-
+gardless of a history of prior CVD. In the setting of primary 
+prevention of ischemic stroke, statin therapy was found to lead 
+to 0.8 quality-adjusted life-years lost (13.0 versus 12.2). The 
+loss was estimated to be smaller in the setting of patients with 
+a history of previous MI (0.2 quality-adjusted life-years). One 
+limitation of this analysis is that because of the lack of clinical 
+trial data for different statins at different doses, the data in this 
+model for risk of intracerebral hemorrhage came from 1 trial, 
+which used 1 statin at its highest dose.
+This analysis antedated a retrospective cohort study that 
+included 3481 patients with an intracerebral hemorrhage 
+admitted to any of 20 hospitals over a 10-year period (in 
+SPARCL, subjects were randomized 1–6 months after brain 
+hemorrhage).293 Compared with nonusers, those who received 
+a statin during the hospitalization had a higher 30-day sur-",,,
+Q10,patient had a stroke last year and wants to stop the statin,4,05_aha_2019_statin_safety.pdf-248,"Newman et al    Statin Safety and Associated Adverse Events    e69
+possibly increase the risk of hemorrhagic stroke in patients 
+with a history of cerebrovascular disease.
+With the exception of hemorrhagic stroke and the pos-
+sible exception of newly diagnosed diabetes mellitus and 
+some cases of autoimmune necrotizing myositis, statin ad-
+verse effects can almost always be reversed by stopping 
+treatment. In contrast, an MI or ischemic stroke perma-
+nently damages an individual’s heart or brain and can be 
+fatal. Thus, in the patient population in whom statins are 
+recommended by current guidelines, the benefit of reducing 
+cardiovascular risk with statin therapy far outweighs any 
+safety concerns.
+Disclosures
+Writing Group Disclosures
+Writing Group 
+Member
+Employment
+Research Grant
+Other Research 
+Support
+Speakers’ 
+Bureau/Honoraria
+Expert 
+Witness
+Ownership 
+Interest
+Consultant/
+Advisory Board
+Other
+Connie B. 
+Newman
+New York University 
+School of Medicine‡
+None
+None
+None
+None",,,
+Q10,patient had a stroke last year and wants to stop the statin,5,05_aha_2019_statin_safety.pdf-9,"(RCTs) and subsequent meta-analyses proved that statins signifi-
+cantly reduce CVD, including myocardial infarction (MI) and 
+stroke, as well as death from cardiovascular causes.3,4
+According to the Centers for Disease Control and 
+Prevention, >25% of US adults >40 years of age take a statin, 
+which translates to >25 million men and women.5 Despite 
+the cardiovascular benefits of statins, however, long-term ad-
+herence to statin therapy is not optimal.6,7 In clinical practice, 
+patients report symptoms that they or their healthcare providers 
+attribute to the statin.8,9 This can lead to discontinuation of statin 
+therapy, which is estimated to occur in 10% of patients in the 
+United States,6,10 but considerably less often (2%–4%) in many 
+other countries.10,11 Other patients might discontinue statin 
+therapy because of fears of side effects, which may or may not 
+be treatment related, based on reports in the lay media12 or ad-",,,
+Q11,why keep taking a statin after a heart attack,1,05_aha_2019_statin_safety.pdf-72,"clearly discernible, it is reasonable to recommend a “statin 
+holiday” for 1 to 2 weeks and determine whether symptoms 
+resolve. If so, it can be difficult for both clinicians and patients 
+to believe the symptoms are not caused by the statin. A suc-
+cessful rechallenge without symptoms would provide evi-
+dence that the initial SAMS were unrelated to statin therapy, 
+but sometimes the symptoms recur with each rechallenge. 
+Although SAMS can usually be explained by patient expecta-
+tions of harm, as discussed previously, the symptoms are real 
+and can be severe. SAMS are a common cause of stopping 
+statins and a barrier that impedes long-term adherence.10 As 
+expected, discontinuation is strongly associated in observa-
+tional studies with higher cardiovascular event rates.101
+When a patient reports muscle symptoms, the possibility 
+of an adverse statin drug interaction should be borne in mind 
+and dealt with, as addressed elsewhere in this statement (see",,,
+Q11,why keep taking a statin after a heart attack,2,04_nla_2022_statin_intolerance.pdf-22,"patients with high cholesterol who had taken a statin within 
+the past two years and experienced at least one statin- 
+associated symptom within the prior six months. 22 Of the 
+survey participants, a total of 332 individuals (22.1%) re- 
+ported having discontinued statin therapy; the main reasons 
+given for discontinuation were due to being bothered by, or 
+intolerant of, side effects. Those who had discontinued statin 
+therapy also reported experiencing more severe symptoms, 
+which were predominantly musculoskeletal in nature, than 
+those who continued to take a statin. The STATE survey was 
+designed to assess patient experiences with statin therapy and 
+did not account for whether the symptoms that led to discon- 
+tinuation were truly related to the pharmacologic effects of 
+statin therapy or only perceived to be so. Also, data from the 
+STATE survey cannot be used to estimate the prevalence of 
+statin intolerance in clinical practice but do support the view",,,
+Q11,why keep taking a statin after a heart attack,3,05_aha_2019_statin_safety.pdf-81,"ance is generally not reproducible.
+There is increasing appreciation of the role of patient expec-
+tations of harm as the cause of muscle and other symptoms in 
+statin-treated patients. The symptoms can be severe despite the 
+absence of a pharmacological basis in the vast majority of cases, 
+and they should never be dismissed by the clinician. Expectations 
+of harm are generated by appropriate clinician warnings about 
+the small risk of rhabdomyolysis and from negative information 
+in the media. Although muscle symptoms are very unlikely to be 
+caused by the statin, rechallenge with the same statin at a lower 
+dose or a different statin is useful as the first step to restore statin 
+therapy, which might be possible at or near the previous level 
+of intensity. Resuming and maintaining treatment with a statin 
+(when myopathy has been excluded) reduces the risk of ath-
+erosclerotic vascular events, which is especially important in 
+high-risk patients, such as those with preexisting CVD.",,,
+Q11,why keep taking a statin after a heart attack,4,05_aha_2019_statin_safety.pdf-76,"treatment because of adverse events considered statin related. 
+Of these, 6579 (59%) were rechallenged, and in them, some 
+form of statin treatment could be restored in >90%.6 Of these, 
+2721 were rechallenged with the same statin, and 2568 were 
+taking a statin 12 months after the original statin-related event. 
+At 12 months, 1295 patients were taking the same statin, and 
+of these, 996 were taking the original statin at the same or a 
+higher dose. Only 153 patients were not taking a statin. Of 
+the 6579 patients who were rechallenged, 3858 patients were 
+rechallenged with a different statin, and 3496 were taking any 
+statin at 12 months. A total of 362 patients were not taking any 
+statin at 12 months. Therefore, only 515 (7.8%) of the 6579 
+rechallenged patients were not taking a statin at 12 months.
+During rechallenge, patients are likely to believe, quite 
+reasonably, that their symptoms are caused by the statin, espe-",,,
+Q11,why keep taking a statin after a heart attack,5,05_aha_2019_statin_safety.pdf-42,"referred to a muscle specialist to consider other diagnoses 
+such as polymyalgia rheumatica, mitochondrial myopathies, 
+and the very rare statin-associated autoimmune myopathy (or 
+immune-mediated necrotizing myopathy) thought to occur in 
+2 to 3 patients per 100 000 treated with statins, which is vari-
+ably reversible with statin discontinuation.61 If CK is moder-
+ately elevated (eg, between 3 and 4 times the ULN), and the 
+symptoms are mild, the statin can be continued, with another 
+measurement in a few days. If the CK concentration is falling 
+or stable, the statin can be continued, with further follow-up 
+and the timing thereof depending on the CK level, symptoms, 
+and medical history.
+2.1.4. Athletes/Exercise Enthusiasts
+Limited evidence suggests that statins can amplify the CK 
+increases that commonly occur after vigorous exercise.62,63 
+Some practitioners advise the suspension of a statin a day or 
+two before a marathon or other competitive strenuous exer-",,,
+Q12,should a 55-year-old with high cholesterol and no heart disease take a statin,1,01_acc_aha_2026_dyslipidemia_guideline.pdf-388,"A meta-analysis of individual participant data from 28
+RCTs found that only 8% of participants in trials of
+preventive statin therapy were aged $75 years, and
+statin therapy in this group produced a 13% RRR in
+major vascular events per 1.0 mmol/L (38.7 mg/dL)
+reduction in LDL-C, with reductions driven by fewer
+major
+coronary
+events
+but
+not
+overall
+mortality,
+Recommendations for Older Adults
+Referenced studies that support recommendations are
+summarized in the Evidence Table.
+COR
+LOE
+RECOMMENDATIONS
+1
+C-EO
+1. In older adults, the benefit-risk dis-
+cussion should include patient pri-
+orities, functional status,
+multimorbidity, frailty, poly-
+pharmacy, and life expectancy, and
+should not be based solely on chro-
+nological age when considering the
+decision to discontinue LLT.1-3
+2b
+B-NR
+2. In adults aged >75 years with an
+estimated life expectancy of at least
+2.5 years, it may be reasonable to
+initiate moderate-intensity statin
+therapy after a clinician–patient",,,
+Q12,should a 55-year-old with high cholesterol and no heart disease take a statin,2,05_aha_2019_statin_safety.pdf-3,"Abstract—One in 4 Americans >40 years of age takes a statin to reduce the risk of myocardial infarction, ischemic stroke, and 
+other complications of atherosclerotic disease. The most effective statins produce a mean reduction in low-density lipoprotein 
+cholesterol of 55% to 60% at the maximum dosage, and 6 of the 7 marketed statins are available in generic form, which makes 
+them affordable for most patients. Primarily using data from randomized controlled trials, supplemented with observational data 
+where necessary, this scientific statement provides a comprehensive review of statin safety and tolerability. The review covers 
+the general patient population, as well as demographic subgroups, including the elderly, children, pregnant women, East Asians, 
+and patients with specific conditions such as chronic disease of the kidney and liver, human immunodeficiency viral infection,",,,
+Q12,should a 55-year-old with high cholesterol and no heart disease take a statin,3,01_acc_aha_2026_dyslipidemia_guideline.pdf-176,"modification. Statin therapy is the recommended initial
+drug choice for primary prevention based on safety,
+tolerability, efficacy, cost-effectiveness, and the wealth
+of evidence for ASCVD risk reduction, with additional
+therapies available to attain optimal LDL-C–lowering as
+an adjunct to statin therapy.7 In addition to the general
+category of adults 30 to 79 years of age, other major risk
+categories in primary prevention include patients with
+severe hypercholesterolemia (LDL-C levels $190 mg/dL
+[4.9 mmol/L]) and adults with diabetes. Patients with
+severe hypercholesterolemia and adults with diabetes
+(Section 4.2.5, “Diabetes in Adults Without Established
+ASCVD”) are candidates for statin therapy. In other
+adults 30 to 79 years of age, 10-year ASCVD risk assessed
+with the PREVENT-ASCVD equations should guide ther-
+apeutic decisions along with consideration of long-term
+exposure to elevated atherogenic lipoproteins. The risk
+discussion should also consider risk enhancers, repro-",,,
+Q12,should a 55-year-old with high cholesterol and no heart disease take a statin,4,02_uspstf_2022_statin_primary_prevention.pdf-33,"tweenstatinandplaceboinriskofcardiovascularmortality(RR,0.68
+at 6 years [95% CI, 0.48 to 0.98]; ARD, −0.70% [95% CI, −1.36%
+to −0.05%]).33 In pooled analyses of all 12 trials, statin therapy was
+associatedwithaslightreductionincardiovascularmortalityriskat
+2 to 6 years that was not statistically significant (RR, 0.91 [95% CI,
+0.81 to 1.02]; ARD, −0.13%; [95% CI, −0.25% to −0.02%]).13,31
+Evidence on the benefits of statins in persons 75 years or older
+islimited.Asnoted,mosttrialshadameanparticipantageinthe50s
+and 60s; only 1 trial, PROSPER (n = 3239 for primary prevention),
+had a study population with a mean age of 75 years.32 One addi-
+tionaltrial,ALLHAT-LLT(AntihypertensiveandLipid-LoweringTreat-
+ment to Prevent Heart Attack Trial–Lipid Lowering Trial), reported
+stratified results for the age group 75 years or older (in addition to
+other age groups).34,35 The primary prevention data from PROS-
+PERfoundnodecreaseinall-causemortality(RR,1.07[95%CI,0.86",,,
+Q12,should a 55-year-old with high cholesterol and no heart disease take a statin,5,02_uspstf_2022_statin_primary_prevention.pdf-16,"ease and cerebrovascular disease were respectively the first and
+fourth leading causes of death in adults 65 years or older in 2018,
+althoughdatawerenotreportedseparatelyforadultsolderthan75
+years.19 However, trial data on the benefits of statin use in persons
+older than 75 years are limited,13 and the available evidence is in-
+sufficient to recommend for or against initiating statin use for the
+primary prevention of CVD in this age group.
+Potential Harms
+Evidence on the potential harms of statin use for the primary pre-
+vention of CVD events specifically in adults 76 years or older is
+limited. Evidence from trials in the general adult population shows
+that statins are not associated with an increased risk of myalgia,
+elevated alanine aminotransferase level, or cognitive harms
+Table. Summary of USPSTF Rationale
+Rationale
+Assessment
+Benefits of statin use
+• Convincing evidence that statin use reduces the probability of CVD events (myocardial infarction or ischemic stroke)",,,
+Q13,patient with diabetes asks why they need a statin if their cholesterol is normal,1,02_uspstf_2022_statin_primary_prevention.pdf-25,"• The Centers for Disease Control and Prevention has information about cholesterol-lowering medications,
+including statins, at https://www.cdc.gov/cholesterol/treating_cholesterol.htm, and resources for clinicians at
+https://www.cdc.gov/cholesterol/educational_materials.htm
+Consider the patient’s age.
+• For adults aged 40 to 75 years:
+• Determine whether the patient has a cardiovascular risk factor (ie, dyslipidemia, diabetes, hypertension, or smoking).
+• Estimate CVD risk using a CVD risk estimator.
+• In patients who have a cardiovascular risk factor and an estimated 10-year CVD risk of 10% or greater, initiate a
+moderate-intensity statin after discussing the rationale and provided the patient agrees.
+• In patients who have a cardiovascular risk factor and an estimated 10-year CVD risk of 7.5% to less than 10%, the
+benefit of starting a statin is smaller, so clinicians should selectively offer a statin, taking patient values and
+preferences into account.",,,
+Q13,patient with diabetes asks why they need a statin if their cholesterol is normal,2,05_aha_2019_statin_safety.pdf-3,"Abstract—One in 4 Americans >40 years of age takes a statin to reduce the risk of myocardial infarction, ischemic stroke, and 
+other complications of atherosclerotic disease. The most effective statins produce a mean reduction in low-density lipoprotein 
+cholesterol of 55% to 60% at the maximum dosage, and 6 of the 7 marketed statins are available in generic form, which makes 
+them affordable for most patients. Primarily using data from randomized controlled trials, supplemented with observational data 
+where necessary, this scientific statement provides a comprehensive review of statin safety and tolerability. The review covers 
+the general patient population, as well as demographic subgroups, including the elderly, children, pregnant women, East Asians, 
+and patients with specific conditions such as chronic disease of the kidney and liver, human immunodeficiency viral infection,",,,
+Q13,patient with diabetes asks why they need a statin if their cholesterol is normal,3,02_uspstf_2022_statin_primary_prevention.pdf-12,"dyslipidemia, diabetes, or hypertension, the USPSTF recommends
+that clinicians prescribe a statin once the rationale has been ex-
+plained and the patient agrees to take a statin.12 For patients with
+an estimated 10-year CVD risk of 7.5% to less than 10% (and who
+have 1 of the risk factors noted above), clinicians may selectively
+offer a statin, taking patient values and preferences into account.
+Patientsinthisestimatedriskrangewhoplaceahighervalueonthe
+potential benefits than on the potential harms and inconvenience
+of taking a daily medication may choose to initiate a statin.
+Giventhatparticipantsinclinicaltrialsofstatintherapywereen-
+rolled based on the presence of 1 or more CVD risk factors, and that
+themagnitudeofbenefitofstatinuseisproportionaltoaperson’ses-
+timated 10-year CVD risk, the USPSTF recommends that clinicians
+evaluate both the presence of CVD risk factors (ie, dyslipidemia, dia-
+betes,hypertension,orsmoking)aswellasestimated10-yearriskof",,,
+Q13,patient with diabetes asks why they need a statin if their cholesterol is normal,4,05_aha_2019_statin_safety.pdf-295,"116.	 Preiss D, Seshasai SR, Welsh P, Murphy SA, Ho JE, Waters DD, DeMicco 
+DA, Barter P, Cannon CP, Sabatine MS, Braunwald E, Kastelein JJ, de 
+Lemos JA, Blazing MA, Pedersen TR, Tikkanen MJ, Sattar N, Ray KK. 
+Risk of incident diabetes with intensive-dose compared with moderate-
+dose statin therapy: a meta-analysis. JAMA. 2011;305:2556–2564. doi: 
+10.1001/jama.2011.860
+	117.	 Kearney PM, Blackwell L, Collins R, Keech A, Simes J, Peto R, 
+Armitage J, Baigent C; Cholesterol Treatment Trialists’ (CTT) 
+Collaborators. Efficacy of cholesterol-lowering therapy in 18 686 people 
+with diabetes in 14 randomised trials of statins: a meta-analysis. Lancet. 
+2008;371:117–125. doi: 10.1016/S0140-6736(08)60104-X
+	118.	 Shepherd J, Blauw GJ, Murphy MB, Bollen EL, Buckley BM, Cobbe 
+SM, Ford I, Gaw A, Hyland M, Jukema JW, Kamper AM, Macfarlane 
+PW, Meinders AE, Norrie J, Packard CJ, Perry IJ, Stott DJ, Sweeney 
+BJ, Twomey C, Westendorp RG; for the PROSPER Study Group:",,,
+Q13,patient with diabetes asks why they need a statin if their cholesterol is normal,5,01_acc_aha_2026_dyslipidemia_guideline.pdf-176,"modification. Statin therapy is the recommended initial
+drug choice for primary prevention based on safety,
+tolerability, efficacy, cost-effectiveness, and the wealth
+of evidence for ASCVD risk reduction, with additional
+therapies available to attain optimal LDL-C–lowering as
+an adjunct to statin therapy.7 In addition to the general
+category of adults 30 to 79 years of age, other major risk
+categories in primary prevention include patients with
+severe hypercholesterolemia (LDL-C levels $190 mg/dL
+[4.9 mmol/L]) and adults with diabetes. Patients with
+severe hypercholesterolemia and adults with diabetes
+(Section 4.2.5, “Diabetes in Adults Without Established
+ASCVD”) are candidates for statin therapy. In other
+adults 30 to 79 years of age, 10-year ASCVD risk assessed
+with the PREVENT-ASCVD equations should guide ther-
+apeutic decisions along with consideration of long-term
+exposure to elevated atherogenic lipoproteins. The risk
+discussion should also consider risk enhancers, repro-",,,
+Q14,patient with depression keeps forgetting to take daily medicines,1,03_who_2003_adherence_long_term_therapies.pdf-709,"blood pressure is a classic example of this.What may be represented as “misunderstanding or misinter-
+preting or forgetting”, could be the expression of underlying beliefs and priorities about medicines in
+general, and the patient’s regimen in particular. Denying the diagnosis and the illness, and not believing
+that the medicine will help are other factors. Patients may also fear adverse effects or becoming
+dependent on the drug (which may lead the patient to take a “medication holiday”). Sometimes
+patients may believe mistakenly – that the disease has been sufficiently treated, as is often the case
+when people take antibiotics for an infection, and the symptoms disappear before all the bacteria are
+eradicated. Other factors may be worries about the costs, or the patient experiences problems, for
+example, difficulty swallowing tablets, opening the medicine container, or following a cumbersome
+treatment plan.",,,
+Q14,patient with depression keeps forgetting to take daily medicines,2,03_who_2003_adherence_long_term_therapies.pdf-704,"many reasons for this, and among the many reasons that patients give for not adhering to a treatment
+plan, forgetfulness is the most common. A key question is: why do people forget? The psychological
+mechanism of denial is often a reason, and sometimes something about the treatment may greatly
+concern the patient, resulting in a repression of the desire to follow the prescribed treatment. Illness in
+itself is a concern, and having to take medication is a constant reminder that you’re ill. Other reasons for
+not adhering to a treatment plan include the cost of treatment, inconvenience and possible adverse
+effects.
+Studies have shown that patients are more likely to be motivated to take their medicines correctly as
+prescribed when they:
+– understand and accept the diagnosis;
+– agree with the treatment proposed; and
+– have been able to address and discuss seriously their concerns about the
+specific medicines.",,,
+Q14,patient with depression keeps forgetting to take daily medicines,3,03_who_2003_adherence_long_term_therapies.pdf-257,"of treatment
+(–) Forgetfulness;misunderstanding of instructions
+about medications; poor parental understanding
+of children’s asthma medications; patients’lack
+of perception of his or her own vulnerability to
+illness (31).Patients’lack of information about the
+prescribed daily dosage/ misconceptions about
+the disease and treatments (29); persistent mis-
+understandings about side-effects (29); drug
+abuse (40)
+List-organized instructions; clear instructions
+about treatment for older patients (47)
+Education on use of medicines; management 
+of disease and treatment in conjunction with
+patients (48); adherence education (58); multidis-
+ciplinary care (48); training in monitoring adher-
+ence; more intensive intervention by increasing
+the number and duration of contacts (49)
+Patient education beginning at the time of diag-
+nosis and integrated into every step of asthma
+care (48)
+Simplification of regimens (57); education on use
+of medicines (48); adaptation of prescribed med-",,,
+Q14,patient with depression keeps forgetting to take daily medicines,4,03_who_2003_adherence_long_term_therapies.pdf-746,"treatment; no perceived effect of treatment
+(+) Motivation; good relationship between
+patient and physician
+(–) Forgetfulness; drug abuse, depression;
+psychological stress
+(+) Belief in the efficacy of treatment; moti-
+vation
+(–) Forgetfulness; misunderstanding instruc-
+tions about how to take the medications;
+inadequate knowledge and skill in managing
+the disease symptoms and treatment; anxi-
+eties about possible adverse effects; lack of
+self-perceived need for treatment; psychoso-
+cial stress; depression; low motivation
+(+) Belief in the efficacy of treatment; moti-
+vation; perception of the health risk related 
+to the disease",,,
+Q14,patient with depression keeps forgetting to take daily medicines,5,03_who_2003_adherence_long_term_therapies.pdf-291,"about pain management; inadequate under-
+standing of drug dependence by health profes-
+sionals (5); health professionals’fears of investi-
+gation or sanction (19); poor delivery of care
+education to the patient (20); poor delivery of
+care education to family and caregivers (20);
+reluctance of health professionals to prescribe
+opioids for use at home (20)
+(+) Good relationship between patient and
+physician (14)
+(–) Nature of the patient’s illness; poor under-
+standing of the disease and its symptoms
+(–) Complex treatment regimens; taking too
+many tablets (9); frequency of dose; having no
+treatment instructions (9); misunderstanding
+instructions about how to take the drugs (9);
+bad tasting medication; adverse effects of treat-
+ment (9); inadequate treatment doses; perceived
+ineffectiveness (9) unnecessary duplicate pre-
+scribing (9)
+(+) Monotherapy with simple dosing schedules (9)
+(–) Forgetfulness (9); misconceptions about pain
+(11,12); difficulty in taking the preparation as pre-",,,
+Q15,patient with kidney disease and many prescriptions unsure which ones are essential,1,05_aha_2019_statin_safety.pdf-206,"Appendix 3, Table VI). In patients with end-stage renal disease 
+and patients who have undergone renal transplantation (see 
+5.6. Transplantation), there are other potential safety concerns 
+because of limited clearance of the drug by dialysis and po-
+tential for drug interactions with commonly used immunosup-
+pressive agents in transplantation patients (see 3. Drug-Drug 
+Interactions and 5.6. Transplantation). Table  2 summarizes 
+dose recommendations for statins in patients with CKD.
+Initial RCTs of statins tended to exclude patients with 
+CKD because of theoretical safety concerns. LDL-C reduction 
+with a statin, or a statin combined with a cholesterol absorp-
+tion inhibitor, reduces major cardiovascular events in subjects 
+with non–dialysis-dependent CKD57,294,295 (CKD stages 2–4) 
+Downloaded from http://ahajournals.org by on October 31, 2026",,,
+Q15,patient with kidney disease and many prescriptions unsure which ones are essential,2,01_acc_aha_2026_dyslipidemia_guideline.pdf-418,"based on clinical judgment while considering a patient’s
+projected longevity and other comorbidities. In adults
+with advanced kidney disease requiring dialysis who are
+already on LDL-lowering pharmacotherapy, it may be
+reasonable to continue treatment. The available clinical
+trial data have shown similar safety of statins, ezetimibe,
+and PCSK9 mAb among patients with or without CKD.2
+Although bempedoic acid has been associated with a
+small increase in creatinine and blood urea nitrogen in
+individuals with minimal or moderate renal impairment,
+its use has not been evaluated in individuals with severe
+CKD or those on dialysis.7 A pooled analysis of ORION (O)
+-9, -10, and -11 compared the LDL-C–lowering efficacy and
+safety of inclisiran in 3658 patients with (45.2%) or
+without CKD.8 Although too few patients had severe CKD
+to draw conclusions in that subgroup, inclisiran showed
+Recommendations for Adults With CKD—Stage 3 or
+Higher
+Referenced studies that support recommendations",,,
+Q15,patient with kidney disease and many prescriptions unsure which ones are essential,3,01_acc_aha_2026_dyslipidemia_guideline.pdf-422,"clearance, such as atorvastatin, may be preferable. In
+contrast, rosuvastatin concentrations may increase in
+patients with severe CKD (<30 mL/min/1.73 m2) and
+thus, dose modification (eg, doses of #10 mg) may be
+required. In the SHARP study,1 the combination of
+simvastatin 20 mg daily and ezetimibe reduced the risk
+of major atherosclerotic events (coronary death, MI,
+nonhemorrhagic
+stroke,
+or
+any
+revascularization)
+compared with placebo in persons with CKD stage 3 or
+greater.
+2. Among patients with established ASCVD, CKD is an
+independent risk factor for adverse cardiovascular
+events. PCSK9i have been shown to be safe and
+effective in individuals who have mild or moderate
+CKD but have not been studied in those with GFR
+<20 mL/min/1.73 m2.9 In the FOURIER trial, the ab-
+solute reduction in the composite of cardiovascular
+death, MI, or stroke with evolocumab was numeri-
+cally
+greater
+with
+more
+advanced
+CKD.3
+Adverse
+events were infrequent and similar regardless of CKD",,,
+Q15,patient with kidney disease and many prescriptions unsure which ones are essential,4,05_aha_2019_statin_safety.pdf-39,"athy, which is likely to progress to rhabdomyolysis and pos-
+sibly acute kidney injury (AKI) if the statin is not stopped. 
+Drug interactions (considered in more detail in 3. Drug-
+Drug Interactions) are a common cause of elevated CK and 
+Table 2.  Statins in CKD*
+Agent
+Major Clearance Pathway
+Dose Adjustment in  
+Mild-Moderate CKD
+Use in ESRD
+Use After Transplantation
+Atorvastatin
+Mainly hepatic
+None needed
+Can be used
+Avoid with cyclosporine
+Fluvastatin
+Mainly hepatic
+None needed
+Not studied at doses  
+>40 mg/d
+Do not exceed 20 mg/d with cyclosporine†
+Lovastatin
+Mainly hepatic
+Maximum dose 20 mg/d  
+if eGFR <30 mL/min
+Not discussed in PI
+Avoid with cyclosporine
+Pitavastatin
+Both hepatic and renal
+Maximum dose 2 mg/d
+Maximum dose 2 mg/d
+Contraindicated with cyclosporine
+Pravastatin
+Both hepatic and renal
+None specified
+Maximum dose 20 mg/d
+Maximum dose 20 mg/d with cyclosporine
+Rosuvastatin
+Both hepatic and renal
+None specified
+Maximum dose 10 mg/d",,,
+Q15,patient with kidney disease and many prescriptions unsure which ones are essential,5,05_aha_2019_statin_safety.pdf-211,"between groups.56 Infections, gastrointestinal disorders, mus-
+culoskeletal disorders, and newly diagnosed diabetes mellitus 
+did not differ between the groups.
+Thus, in patients on hemodialysis, use of statins is not 
+routinely recommended, because there is no clear evidence of 
+cardiovascular benefit. Statins appear safe in this population 
+with advanced disease and multiple concomitant medications.
+5.3.3. Peritoneal Dialysis
+There are fewer data available on the safety of statins in 
+patients on peritoneal dialysis. Several small clinical studies, 
+as well as the UK-HARP297 and SHARP295 trials, which in-
+cluded some patients on peritoneal dialysis, have found no ev-
+idence of harm.298–302
+5.3.4. Renal Transplantation
+The safety of statin therapy after kidney transplantation is cov-
+ered in the Transplantation section.
+5.3.5. Progression of Renal Disease
+SHARP included a prespecified renal end point (progression 
+to end-stage renal disease and doubling of serum creatinine);",,,
+Q16,patient with high blood pressure and high cholesterol stopped the statin after one month,1,04_nla_2022_statin_intolerance.pdf-22,"patients with high cholesterol who had taken a statin within 
+the past two years and experienced at least one statin- 
+associated symptom within the prior six months. 22 Of the 
+survey participants, a total of 332 individuals (22.1%) re- 
+ported having discontinued statin therapy; the main reasons 
+given for discontinuation were due to being bothered by, or 
+intolerant of, side effects. Those who had discontinued statin 
+therapy also reported experiencing more severe symptoms, 
+which were predominantly musculoskeletal in nature, than 
+those who continued to take a statin. The STATE survey was 
+designed to assess patient experiences with statin therapy and 
+did not account for whether the symptoms that led to discon- 
+tinuation were truly related to the pharmacologic effects of 
+statin therapy or only perceived to be so. Also, data from the 
+STATE survey cannot be used to estimate the prevalence of 
+statin intolerance in clinical practice but do support the view",,,
+Q16,patient with high blood pressure and high cholesterol stopped the statin after one month,2,01_acc_aha_2026_dyslipidemia_guideline.pdf-312,"tancy of at least 2.5 years, it may be
+reasonable to initiate moderate-
+intensity statin therapy after a
+clinician–patient discussion of
+potential benefits and risks to
+reduce ASCVD risk.9
+continued in the next column
+Continued
+COR
+LOE
+RECOMMENDATIONS
+2b
+C-LD
+7. In adults 20 to 39 years of age with
+diabetes of long duration (≥10 years
+of type 2 diabetes, ≥20 years of type
+1 diabetes), albuminuria (≥30 μg of
+albumin/mg creatinine), estimated
+glomerular filtration rate
+(eGFR) <60 mL/min/1.73 m2, reti-
+nopathy, neuropathy, or ankle-
+brachial index <0.9, it may be
+reasonable to initiate moderate-
+intensity statin therapy to reduce
+ASCVD risk.10,11
+*As per REDUCE-IT inclusion criteria, high-risk features include men $55 years or
+women $65 years, cigarette smoking or stopped smoking within 3 months; hyper-
+tension (blood pressure $140 mm Hg systolic or $90 mm Hg diastolic) or on anti-
+hypertensive medication; high-density lipoprotein-cholesterol #40 mg/dL for men",,,
+Q16,patient with high blood pressure and high cholesterol stopped the statin after one month,3,01_acc_aha_2026_dyslipidemia_guideline.pdf-303,"hypercholesterolemic Scottish cohort of 6695 men
+with a mean baseline LDL-C level of 192 ± 17 mg/dL
+(4.9 mmol/L) showed that pravastatin reduced the
+incidence of MI and cardiovascular death over 4.9
+years.11 A post hoc analysis of this trial in 2560 primary
+prevention subjects with LDL-C $190 mg/dL (4.9
+mmol/L)
+showed
+that
+pravastatin
+significantly
+reduced the risk of incident CHD and MACE during the
+initial trial and of CHD death, cardiovascular death,
+and all-cause mortality over 20 years of follow-up.12
+The benefit of statin therapy is further supported by
+retrospective cohort studies demonstrating a reduced
+risk of incident MI, CHD, and all-cause mortality.13,14
+As high-intensity statins provide greater ASCVD risk
+reduction compared with moderate-intensity statins
+in a wide range of CVOTs,15 maximally tolerated statin
+therapy is recommended for such patients because
+people with some residual low-density lipoprotein
+receptor activity do have a greater response to statin
+therapy.",,,
+Q16,patient with high blood pressure and high cholesterol stopped the statin after one month,4,05_aha_2019_statin_safety.pdf-3,"Abstract—One in 4 Americans >40 years of age takes a statin to reduce the risk of myocardial infarction, ischemic stroke, and 
+other complications of atherosclerotic disease. The most effective statins produce a mean reduction in low-density lipoprotein 
+cholesterol of 55% to 60% at the maximum dosage, and 6 of the 7 marketed statins are available in generic form, which makes 
+them affordable for most patients. Primarily using data from randomized controlled trials, supplemented with observational data 
+where necessary, this scientific statement provides a comprehensive review of statin safety and tolerability. The review covers 
+the general patient population, as well as demographic subgroups, including the elderly, children, pregnant women, East Asians, 
+and patients with specific conditions such as chronic disease of the kidney and liver, human immunodeficiency viral infection,",,,
+Q16,patient with high blood pressure and high cholesterol stopped the statin after one month,5,01_acc_aha_2026_dyslipidemia_guideline.pdf-696,"with hypercholesterolemia and high CVD risk treated
+with maximally tolerated statin therapy. Eur J Prev
+Cardiol. 2020;27:593–603.
+22. Ray KK, Raal FJ, Kallend DG, et al. Inclisiran and
+cardiovascular events: a patient-level analysis of
+phase III trials. Eur Heart J. 2023;44:129–138.
+23. Feinstein MJ, Jhund P, Kang J, et al. Do statins
+reduce the risk of myocardial infarction in patients
+with heart failure? A pooled individual-level reanalysis
+of CORONA and GISSI-HF. Eur J Heart Fail. 2015;17:
+434–441.
+4.2.7. Management of Adults With Subclinical
+Coronary Atherosclerosis (Men $40 or
+Women $45 Years)
+1. Peng AW, Mirbolouk M, Orimoloye OA, et al. Long-
+term
+all-cause
+and
+cause-specific
+mortality
+in
+asymptomatic patients with CAC $1,000: results from
+the
+CAC
+Consortium.
+JACC
+Cardiovasc
+Imaging.
+2020;13:83–93.
+2. Peng AW, Dardari ZA, Blumenthal RS, et al. Very
+high coronary artery calcium ($1000) and association
+with
+cardiovascular
+disease
+events,
+non–",,,
+Q17,patient keeps forgetting to refill the statin,1,12_statin_adherence_interventions_review.pdf-31,"reminder letter if patients are due or 
+overdue for a statin refill
+Usual care
+12 months
+NR for partici­
+pants over 65
+AAA = Abdominal Aortic Aneurysm, ACEI = Angiotensin-converting enzyme inhibitors, ARB = Angiotensin II receptor blockers, CAD = Coronary Artery Disease, CVD = cardiovascular disease, CWA = Comprehensive Wellness 
+Assessment, IVR = Interactive voice recognition, IVR + = Interactive voice recognition with a personalized reminder letter MPR = Medication possession ratio, NHS = National Health Service, NR = Not reported, NSTEMI = Non-
+ST-elevation myocardial infarction, PAD = Peripheral Artery Disease, PDC = Proportion of days covered, STEMI = ST-elevation myocardial infarction, y.o. = years old
+Table 1  (continued)
+Author/year
+Intervention
+Control
+Duration
+Retention rate",,,
+Q17,patient keeps forgetting to refill the statin,2,03_who_2003_adherence_long_term_therapies.pdf-709,"blood pressure is a classic example of this.What may be represented as “misunderstanding or misinter-
+preting or forgetting”, could be the expression of underlying beliefs and priorities about medicines in
+general, and the patient’s regimen in particular. Denying the diagnosis and the illness, and not believing
+that the medicine will help are other factors. Patients may also fear adverse effects or becoming
+dependent on the drug (which may lead the patient to take a “medication holiday”). Sometimes
+patients may believe mistakenly – that the disease has been sufficiently treated, as is often the case
+when people take antibiotics for an infection, and the symptoms disappear before all the bacteria are
+eradicated. Other factors may be worries about the costs, or the patient experiences problems, for
+example, difficulty swallowing tablets, opening the medicine container, or following a cumbersome
+treatment plan.",,,
+Q17,patient keeps forgetting to refill the statin,3,05_aha_2019_statin_safety.pdf-72,"clearly discernible, it is reasonable to recommend a “statin 
+holiday” for 1 to 2 weeks and determine whether symptoms 
+resolve. If so, it can be difficult for both clinicians and patients 
+to believe the symptoms are not caused by the statin. A suc-
+cessful rechallenge without symptoms would provide evi-
+dence that the initial SAMS were unrelated to statin therapy, 
+but sometimes the symptoms recur with each rechallenge. 
+Although SAMS can usually be explained by patient expecta-
+tions of harm, as discussed previously, the symptoms are real 
+and can be severe. SAMS are a common cause of stopping 
+statins and a barrier that impedes long-term adherence.10 As 
+expected, discontinuation is strongly associated in observa-
+tional studies with higher cardiovascular event rates.101
+When a patient reports muscle symptoms, the possibility 
+of an adverse statin drug interaction should be borne in mind 
+and dealt with, as addressed elsewhere in this statement (see",,,
+Q17,patient keeps forgetting to refill the statin,4,05_aha_2019_statin_safety.pdf-77,"During rechallenge, patients are likely to believe, quite 
+reasonably, that their symptoms are caused by the statin, espe-
+cially when they resolve after stopping the statin and then recur 
+on rechallenge. In a typical scenario, a clinician prescribes a 
+statin and appropriately warns a patient of the possibility of 
+myopathy. The patient returns with reports of muscle symp-
+toms with no obvious new cause, and the symptoms resolve 
+on stopping the statin. The clinician typically rechallenges the 
+patient with a lower dose of the same statin or with a differ-
+ent statin, an approach that is often but not always success-
+ful.6 SAMS that reoccur during rechallenge might convince 
+the patient and sometimes the clinician that the symptoms are 
+indeed caused by the statin. However, because the rechallenge 
+is not usually double-blind in the clinic, a positive rechallenge 
+does not demonstrate unequivocally that the symptoms are",,,
+Q17,patient keeps forgetting to refill the statin,5,12_statin_adherence_interventions_review.pdf-37,"on statin adherence. More specifically, Derose et al. [36] 
+reported that providing educational information and an 
+encouraging prompt to patients who recently received a 
+statin prescription had a positive effect on the propor­
+tion of statin dispensation in individuals over 70 years old 
+(OR = 2.32 [1.70–3.18]). Similarly, results from Vollmer et 
+al. [35] showed that an interactive voice-recognition calls 
+with or without personalized reminder letters in patients 
+aged 71 years or older that were due or overdue for a statin 
+refill also had a positive effect on patient adherence. More 
+specifically, they showed that combining the call with a 
+personalized letter showed a greater increase in PDC 
+(+ 3.5% [1.2-5.8%]) than without (+ 2.9% [0.6-5.1%]) when 
+compared to usual care [35].
+Discussion
+In the present review, we identified five RTCs [27, 31, 33, 
+35, 36], five cohort studies [25, 26, 28, 30, 32] and two 
+quasi-experimental studies [29, 34] published between",,,
+Q18,patient filled the statin once and never refilled it,1,05_aha_2019_statin_safety.pdf-72,"clearly discernible, it is reasonable to recommend a “statin 
+holiday” for 1 to 2 weeks and determine whether symptoms 
+resolve. If so, it can be difficult for both clinicians and patients 
+to believe the symptoms are not caused by the statin. A suc-
+cessful rechallenge without symptoms would provide evi-
+dence that the initial SAMS were unrelated to statin therapy, 
+but sometimes the symptoms recur with each rechallenge. 
+Although SAMS can usually be explained by patient expecta-
+tions of harm, as discussed previously, the symptoms are real 
+and can be severe. SAMS are a common cause of stopping 
+statins and a barrier that impedes long-term adherence.10 As 
+expected, discontinuation is strongly associated in observa-
+tional studies with higher cardiovascular event rates.101
+When a patient reports muscle symptoms, the possibility 
+of an adverse statin drug interaction should be borne in mind 
+and dealt with, as addressed elsewhere in this statement (see",,,
+Q18,patient filled the statin once and never refilled it,2,05_aha_2019_statin_safety.pdf-76,"treatment because of adverse events considered statin related. 
+Of these, 6579 (59%) were rechallenged, and in them, some 
+form of statin treatment could be restored in >90%.6 Of these, 
+2721 were rechallenged with the same statin, and 2568 were 
+taking a statin 12 months after the original statin-related event. 
+At 12 months, 1295 patients were taking the same statin, and 
+of these, 996 were taking the original statin at the same or a 
+higher dose. Only 153 patients were not taking a statin. Of 
+the 6579 patients who were rechallenged, 3858 patients were 
+rechallenged with a different statin, and 3496 were taking any 
+statin at 12 months. A total of 362 patients were not taking any 
+statin at 12 months. Therefore, only 515 (7.8%) of the 6579 
+rechallenged patients were not taking a statin at 12 months.
+During rechallenge, patients are likely to believe, quite 
+reasonably, that their symptoms are caused by the statin, espe-",,,
+Q18,patient filled the statin once and never refilled it,3,04_nla_2022_statin_intolerance.pdf-22,"patients with high cholesterol who had taken a statin within 
+the past two years and experienced at least one statin- 
+associated symptom within the prior six months. 22 Of the 
+survey participants, a total of 332 individuals (22.1%) re- 
+ported having discontinued statin therapy; the main reasons 
+given for discontinuation were due to being bothered by, or 
+intolerant of, side effects. Those who had discontinued statin 
+therapy also reported experiencing more severe symptoms, 
+which were predominantly musculoskeletal in nature, than 
+those who continued to take a statin. The STATE survey was 
+designed to assess patient experiences with statin therapy and 
+did not account for whether the symptoms that led to discon- 
+tinuation were truly related to the pharmacologic effects of 
+statin therapy or only perceived to be so. Also, data from the 
+STATE survey cannot be used to estimate the prevalence of 
+statin intolerance in clinical practice but do support the view",,,
+Q18,patient filled the statin once and never refilled it,4,05_aha_2019_statin_safety.pdf-77,"During rechallenge, patients are likely to believe, quite 
+reasonably, that their symptoms are caused by the statin, espe-
+cially when they resolve after stopping the statin and then recur 
+on rechallenge. In a typical scenario, a clinician prescribes a 
+statin and appropriately warns a patient of the possibility of 
+myopathy. The patient returns with reports of muscle symp-
+toms with no obvious new cause, and the symptoms resolve 
+on stopping the statin. The clinician typically rechallenges the 
+patient with a lower dose of the same statin or with a differ-
+ent statin, an approach that is often but not always success-
+ful.6 SAMS that reoccur during rechallenge might convince 
+the patient and sometimes the clinician that the symptoms are 
+indeed caused by the statin. However, because the rechallenge 
+is not usually double-blind in the clinic, a positive rechallenge 
+does not demonstrate unequivocally that the symptoms are",,,
+Q18,patient filled the statin once and never refilled it,5,05_aha_2019_statin_safety.pdf-81,"ance is generally not reproducible.
+There is increasing appreciation of the role of patient expec-
+tations of harm as the cause of muscle and other symptoms in 
+statin-treated patients. The symptoms can be severe despite the 
+absence of a pharmacological basis in the vast majority of cases, 
+and they should never be dismissed by the clinician. Expectations 
+of harm are generated by appropriate clinician warnings about 
+the small risk of rhabdomyolysis and from negative information 
+in the media. Although muscle symptoms are very unlikely to be 
+caused by the statin, rechallenge with the same statin at a lower 
+dose or a different statin is useful as the first step to restore statin 
+therapy, which might be possible at or near the previous level 
+of intensity. Resuming and maintaining treatment with a statin 
+(when myopathy has been excluded) reduces the risk of ath-
+erosclerotic vascular events, which is especially important in 
+high-risk patients, such as those with preexisting CVD.",,,
+Q19,what interventions help older adults keep taking their statin,1,12_statin_adherence_interventions_review.pdf-38,"35, 36], five cohort studies [25, 26, 28, 30, 32] and two 
+quasi-experimental studies [29, 34] published between 
+2010 and 2021 reporting on interventions attempting to 
+increase statin adherence in older adults. Overall, our 
+review suggests that simplifying patients’ drug regimen, 
+administrative improvements and large-scale pharmacy-
+led automated telephone interventions tend to be effec­
+tive when trying to improve older patients’ adherence to 
+statins.
+To the best of our knowledge, this review is the first to 
+specifically examine interventions aimed at improving",,,
+Q19,what interventions help older adults keep taking their statin,2,12_statin_adherence_interventions_review.pdf-8,"to patients with poor adherence [15].
+As such, several groups have sought to develop and 
+implement interventions aimed at increasing statin 
+adherence [16]. Given the beneficial effects of statin 
+therapy in the prevention of CVD in older adults as 
+well as the prevalence and consequences of subopti­
+mal adherence, it is essential to document strategies 
+designed to increase statin treatment adherence in this 
+population. We therefore sought to describe and evalu­
+ate the effectiveness of interventions aiming to improve 
+statin adherence in individuals aged 65 years and older. 
+By doing so, we aim to provide a comprehensive assess­
+ment of the literature for the design and subsequent 
+evaluation of interventions aimed at improving adher­
+ence in older adults.
+Methods
+This review is reported following the Preferred Report­
+ing Items for Systematic Reviews and Meta-Analyses 
+(PRISMA) 2020 [17] (for completed checklist, see Addi­
+tional File 1). The review and its protocol were not",,,
+Q19,what interventions help older adults keep taking their statin,3,12_statin_adherence_interventions_review.pdf-4,"patients’ drug regimen, administrative improvements and large-scale pharmacy-led automated telephone 
+interventions show positive effects on patient adherence to statin therapy, with odds ratios between > 1.0 and 3.0, 
+while education-based strategies and intensified patient care showed mixed results.
+Conclusions  Current evidence suggests that some interventions can increase statin adherence in older adults, which 
+could help in the reduction of the risk of a cardiovascular event in this population.
+Keywords  Statin, Older adult, Adherence, Systematic review
+Strategies aiming to improve statin therapy 
+adherence in older adults: a systematic review
+Philipp Frieden1,2,3, Rose Gagnon2,4, Élodie Bénard1,2,3, Benoît Cossette5,6, Frédéric Bergeron7, Denis Talbot1,2 and 
+Jason Robert Guertin1,2,3*",,,
+Q19,what interventions help older adults keep taking their statin,4,12_statin_adherence_interventions_review.pdf-54,"included in their study.
+Conclusions
+In conclusion, the evidence suggests that simplifying 
+patients’ drug regimen, administrative improvements, 
+and large-scale pharmacy-led automated telephone 
+interventions may have positive effects on patient adher­
+ence to statin therapy, while education-based strategies 
+and intensified patient care had mixed results. Although 
+our review was restricted to older patients, we noticed 
+that most studies tended to apply their intervention to 
+the general adult population. As a result, important gaps 
+in knowledge remain regarding interventions to improve 
+statin adherence specifically in older adults. Moreover, 
+patient adherence can be influenced by different factors 
+such as medication side effects or fear of side effects, 
+patient beliefs and memory [38, 39]. Tailoring interven­
+tions to address patient’s reasons for nonadherence in",,,
+Q19,what interventions help older adults keep taking their statin,5,12_statin_adherence_interventions_review.pdf-43,"Page 11 of 14
+Frieden et al. BMC Geriatrics          (2024) 24:444 
+statin adherence amongst older adults. This is particu­
+larly important as the effectiveness of interventions 
+aiming to improve statin adherence within this patient 
+subset, for multiple reasons (e.g., administrative require­
+ments, individuals’ financial capacity, complex drug regi­
+mens), could differ from what could be observed within 
+an unrestricted adult population. Prior to conducting our 
+review, two groups conducted two distinct systematic 
+reviews of RCT interventions aimed at improving statin 
+adherence within adult patients (no restriction in regards 
+to patients’ age) [16, 37]. Some key differences in terms 
+of results between our and their reviews warrant further 
+discussion. For example, in the review by Schedlbauer et 
+al. [37], interventions focusing on patient re-inforcement 
+and reminders tended to have the best overall effect 
+on adherence (four out of six selected studies showed",,,

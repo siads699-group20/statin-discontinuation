@@ -161,6 +161,8 @@ venv.bak/
 
 # MEPS source data
 /data/*
+!/data/rag/
+/data/rag/corpus/
 
 # Spyder project settings
 .spyderproject
