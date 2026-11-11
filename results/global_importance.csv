@@ -1,0 +1,105 @@
+tier,rank,feature,label,mean_abs_shap,direction,n_patients
+All,1,RACETHX_round_1,Race and ethnicity,0.21267,by category,1339
+All,2,MNHLTH_round_1,Self-rated mental health,0.18101,higher → more risk,1339
+All,3,distinct_drug_count_round_2,"Different medications, round 2",0.17432,higher → less risk,1339
+All,4,single_fill,Only one statin fill in rounds 1-2,0.13378,higher → more risk,1339
+All,5,rx_purchase_count_round_1,"Prescription fills (all drugs), round 1",0.13103,higher → less risk,1339
+All,6,statin_rx_cost_baseline_total,"Statin out-of-pocket cost, rounds 1-2",0.12766,higher → more risk,1339
+All,7,MCARE_round_1,Has Medicare,0.08288,by category,1339
+All,8,active_condition_count_round_1,"Active medical conditions, round 1",0.07609,higher → less risk,1339
+All,9,active_condition_count_round_2,"Active medical conditions, round 2",0.06321,mixed,1339
+All,10,AGE_round_1,Age,0.05653,higher → less risk,1339
+All,11,rx_purchase_count_round_2,"Prescription fills (all drugs), round 2",0.04179,higher → less risk,1339
+All,12,statin_purchase_count_round_1,Statin fills in round 1,0.03767,higher → less risk,1339
+All,13,statin_rx_cost_round_1,"Statin out-of-pocket cost, round 1",0.03719,higher → more risk,1339
+All,14,statin_purchase_count_round_2,Statin fills in round 2,0.03378,mixed,1339
+All,15,PMEDIN_round_1,Has private prescription drug coverage,0.02041,by category,1339
+All,16,fill_change,"Change in statin fills, round 1 to 2",0.02007,higher → more risk,1339
+All,17,distinct_drug_count_round_1,"Different medications, round 1",0.01924,higher → less risk,1339
+All,18,SEX_round_1,Sex,0.01853,by category,1339
+All,19,MCAID_round_1,Has Medicaid,0.00782,by category,1339
+All,20,EDUCYR_round_1,Years of education,0.00662,higher → less risk,1339
+All,21,HIDEG_round_1,Highest degree,0.00516,by category,1339
+All,22,HISPANX_round_1,Hispanic ethnicity,0.00504,by category,1339
+All,23,PRIVAT_round_1,Has private insurance,0.00481,by category,1339
+All,24,RTHLTH_round_1,Self-rated physical health,0.0033,higher → less risk,1339
+All,25,statin_rx_cost_round_2,"Statin out-of-pocket cost, round 2",0.00304,higher → less risk,1339
+All,26,INS_round_1,Has health insurance,0.0,by category,1339
+High,1,distinct_drug_count_round_2,"Different medications, round 2",0.2688,higher → less risk,299
+High,2,RACETHX_round_1,Race and ethnicity,0.20544,by category,299
+High,3,single_fill,Only one statin fill in rounds 1-2,0.20509,higher → more risk,299
+High,4,rx_purchase_count_round_1,"Prescription fills (all drugs), round 1",0.20004,higher → less risk,299
+High,5,MNHLTH_round_1,Self-rated mental health,0.18243,higher → more risk,299
+High,6,statin_rx_cost_baseline_total,"Statin out-of-pocket cost, rounds 1-2",0.11545,higher → more risk,299
+High,7,MCARE_round_1,Has Medicare,0.10689,by category,299
+High,8,active_condition_count_round_2,"Active medical conditions, round 2",0.10227,higher → less risk,299
+High,9,active_condition_count_round_1,"Active medical conditions, round 1",0.07859,higher → less risk,299
+High,10,AGE_round_1,Age,0.06172,higher → less risk,299
+High,11,rx_purchase_count_round_2,"Prescription fills (all drugs), round 2",0.06088,higher → less risk,299
+High,12,statin_purchase_count_round_1,Statin fills in round 1,0.04404,higher → less risk,299
+High,13,statin_purchase_count_round_2,Statin fills in round 2,0.04155,higher → less risk,299
+High,14,statin_rx_cost_round_1,"Statin out-of-pocket cost, round 1",0.035,higher → more risk,299
+High,15,distinct_drug_count_round_1,"Different medications, round 1",0.02635,higher → less risk,299
+High,16,PMEDIN_round_1,Has private prescription drug coverage,0.0244,by category,299
+High,17,SEX_round_1,Sex,0.01997,by category,299
+High,18,fill_change,"Change in statin fills, round 1 to 2",0.0196,higher → more risk,299
+High,19,PRIVAT_round_1,Has private insurance,0.00972,by category,299
+High,20,HIDEG_round_1,Highest degree,0.00729,by category,299
+High,21,EDUCYR_round_1,Years of education,0.00687,higher → less risk,299
+High,22,MCAID_round_1,Has Medicaid,0.00662,by category,299
+High,23,HISPANX_round_1,Hispanic ethnicity,0.00587,by category,299
+High,24,statin_rx_cost_round_2,"Statin out-of-pocket cost, round 2",0.00508,higher → less risk,299
+High,25,RTHLTH_round_1,Self-rated physical health,0.00261,higher → less risk,299
+High,26,INS_round_1,Has health insurance,0.0,by category,299
+Medium,1,RACETHX_round_1,Race and ethnicity,0.22649,by category,509
+Medium,2,MNHLTH_round_1,Self-rated mental health,0.18059,higher → more risk,509
+Medium,3,distinct_drug_count_round_2,"Different medications, round 2",0.15669,higher → less risk,509
+Medium,4,statin_rx_cost_baseline_total,"Statin out-of-pocket cost, rounds 1-2",0.14058,higher → more risk,509
+Medium,5,single_fill,Only one statin fill in rounds 1-2,0.1254,higher → more risk,509
+Medium,6,rx_purchase_count_round_1,"Prescription fills (all drugs), round 1",0.12436,higher → less risk,509
+Medium,7,MCARE_round_1,Has Medicare,0.0809,by category,509
+Medium,8,active_condition_count_round_1,"Active medical conditions, round 1",0.07098,higher → less risk,509
+Medium,9,AGE_round_1,Age,0.057,higher → less risk,509
+Medium,10,active_condition_count_round_2,"Active medical conditions, round 2",0.0554,mixed,509
+Medium,11,statin_rx_cost_round_1,"Statin out-of-pocket cost, round 1",0.04109,higher → more risk,509
+Medium,12,statin_purchase_count_round_1,Statin fills in round 1,0.03842,higher → less risk,509
+Medium,13,rx_purchase_count_round_2,"Prescription fills (all drugs), round 2",0.03661,higher → less risk,509
+Medium,14,statin_purchase_count_round_2,Statin fills in round 2,0.03278,mixed,509
+Medium,15,PMEDIN_round_1,Has private prescription drug coverage,0.02167,by category,509
+Medium,16,fill_change,"Change in statin fills, round 1 to 2",0.0203,higher → more risk,509
+Medium,17,distinct_drug_count_round_1,"Different medications, round 1",0.01904,higher → less risk,509
+Medium,18,SEX_round_1,Sex,0.01814,by category,509
+Medium,19,MCAID_round_1,Has Medicaid,0.00894,by category,509
+Medium,20,EDUCYR_round_1,Years of education,0.00667,higher → less risk,509
+Medium,21,HISPANX_round_1,Hispanic ethnicity,0.00551,by category,509
+Medium,22,HIDEG_round_1,Highest degree,0.00523,by category,509
+Medium,23,PRIVAT_round_1,Has private insurance,0.00446,by category,509
+Medium,24,RTHLTH_round_1,Self-rated physical health,0.00323,higher → less risk,509
+Medium,25,statin_rx_cost_round_2,"Statin out-of-pocket cost, round 2",0.00298,higher → less risk,509
+Medium,26,INS_round_1,Has health insurance,0.0,by category,509
+Low,1,RACETHX_round_1,Race and ethnicity,0.20351,by category,531
+Low,2,MNHLTH_round_1,Self-rated mental health,0.18061,higher → more risk,531
+Low,3,distinct_drug_count_round_2,"Different medications, round 2",0.13803,higher → less risk,531
+Low,4,statin_rx_cost_baseline_total,"Statin out-of-pocket cost, rounds 1-2",0.12214,higher → more risk,531
+Low,5,single_fill,Only one statin fill in rounds 1-2,0.10165,higher → more risk,531
+Low,6,rx_purchase_count_round_1,"Prescription fills (all drugs), round 1",0.09856,higher → less risk,531
+Low,7,active_condition_count_round_1,"Active medical conditions, round 1",0.07957,higher → more risk,531
+Low,8,MCARE_round_1,Has Medicare,0.07126,by category,531
+Low,9,AGE_round_1,Age,0.05315,higher → less risk,531
+Low,10,active_condition_count_round_2,"Active medical conditions, round 2",0.0487,higher → more risk,531
+Low,11,rx_purchase_count_round_2,"Prescription fills (all drugs), round 2",0.036,higher → less risk,531
+Low,12,statin_rx_cost_round_1,"Statin out-of-pocket cost, round 1",0.03469,higher → more risk,531
+Low,13,statin_purchase_count_round_1,Statin fills in round 1,0.03337,higher → less risk,531
+Low,14,statin_purchase_count_round_2,Statin fills in round 2,0.03035,higher → more risk,531
+Low,15,fill_change,"Change in statin fills, round 1 to 2",0.02012,higher → more risk,531
+Low,16,SEX_round_1,Sex,0.01808,by category,531
+Low,17,PMEDIN_round_1,Has private prescription drug coverage,0.01694,by category,531
+Low,18,distinct_drug_count_round_1,"Different medications, round 1",0.01544,higher → less risk,531
+Low,19,MCAID_round_1,Has Medicaid,0.00742,by category,531
+Low,20,EDUCYR_round_1,Years of education,0.00643,higher → less risk,531
+Low,21,HISPANX_round_1,Hispanic ethnicity,0.00411,by category,531
+Low,22,HIDEG_round_1,Highest degree,0.00388,by category,531
+Low,23,RTHLTH_round_1,Self-rated physical health,0.00376,higher → less risk,531
+Low,24,PRIVAT_round_1,Has private insurance,0.00238,by category,531
+Low,25,statin_rx_cost_round_2,"Statin out-of-pocket cost, round 2",0.00194,higher → less risk,531
+Low,26,INS_round_1,Has health insurance,0.0,by category,531

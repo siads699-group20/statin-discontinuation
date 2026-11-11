@@ -231,3 +231,6 @@ __marimo__/
 
 # RAG corpus PDFs are downloaded from their sources, never committed
 notebooks/corpus/
+
+# Personal labeling sheet (contains corpus text)
+Rachel_passages_to_label.csv

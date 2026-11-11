@@ -1,0 +1,27 @@
+feature,label,value_kind,rag_driver,actionable
+statin_purchase_count_round_1,Statin fills in round 1,count,fill_change,True
+statin_purchase_count_round_2,Statin fills in round 2,count,fill_change,True
+statin_rx_cost_round_1,"Statin out-of-pocket cost, round 1",dollars,statin_oop_cost,True
+statin_rx_cost_round_2,"Statin out-of-pocket cost, round 2",dollars,statin_oop_cost,True
+statin_rx_cost_baseline_total,"Statin out-of-pocket cost, rounds 1-2",dollars,statin_oop_cost,True
+fill_change,"Change in statin fills, round 1 to 2",signed,fill_change,True
+single_fill,Only one statin fill in rounds 1-2,code,single_fill,True
+AGE_round_1,Age,years,,False
+SEX_round_1,Sex,code,,False
+RACETHX_round_1,Race and ethnicity,code,,False
+HISPANX_round_1,Hispanic ethnicity,code,,False
+EDUCYR_round_1,Years of education,years,,False
+HIDEG_round_1,Highest degree,code,,False
+RTHLTH_round_1,Self-rated physical health,code,,False
+MNHLTH_round_1,Self-rated mental health,code,cond_depression,True
+INS_round_1,Has health insurance,code,insurance_type,True
+MCARE_round_1,Has Medicare,code,insurance_type,True
+MCAID_round_1,Has Medicaid,code,insurance_type,True
+PRIVAT_round_1,Has private insurance,code,insurance_type,True
+PMEDIN_round_1,Has private prescription drug coverage,code,insurance_type,True
+rx_purchase_count_round_1,"Prescription fills (all drugs), round 1",count,med_count,True
+rx_purchase_count_round_2,"Prescription fills (all drugs), round 2",count,med_count,True
+distinct_drug_count_round_1,"Different medications, round 1",count,med_count,True
+distinct_drug_count_round_2,"Different medications, round 2",count,med_count,True
+active_condition_count_round_1,"Active medical conditions, round 1",count,cond_count,True
+active_condition_count_round_2,"Active medical conditions, round 2",count,cond_count,True
