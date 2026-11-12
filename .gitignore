@@ -240,3 +240,6 @@ notebooks/corpus/
 
 # Personal labeling sheet (contains corpus text)
 Rachel_passages_to_label.csv
+
+# File containing patient id
+patient_drivers.csv
