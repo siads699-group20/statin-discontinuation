@@ -163,6 +163,12 @@ venv.bak/
 /data/*
 !/data/rag/
 /data/rag/corpus/
+!/data/demo/
+/data/demo/*
+!/data/demo/patient_drivers.csv
+!/data/demo/global_importance.csv
+!/data/demo/subgroup_metrics.csv
+!/data/demo/drafts_questions.json
 
 # Spyder project settings
 .spyderproject

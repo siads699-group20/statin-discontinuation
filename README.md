@@ -108,6 +108,18 @@ python --version
 
 ---
 
+## Run the demo app
+
+Once the mock handoff files are available in `data/demo/`, start the prototype with:
+
+```
+streamlit run app/streamlit_app.py
+```
+
+The app uses only those demo files; do not put MEPS-derived row-level data in `data/demo/` or commit it.
+
+---
+
 ## Results
 
 Coming soon.

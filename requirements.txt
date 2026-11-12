@@ -28,4 +28,4 @@ pandas==2.1.4              # Deepnote's toolkit requires pandas < 2.2
 scikit-learn==1.9.1
 python-dotenv==1.2.4
 pyreadstat>=1.2
-
+streamlit>=1.49,<2
