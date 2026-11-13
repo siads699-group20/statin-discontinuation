@@ -1,0 +1,269 @@
+DUPERSID,risk_score,risk_tier,discontinued,age,sex,race_eth,insurance
+2792981101,0.026941378,Low,0,85,Female,Non-Hispanic White,Medicare
+2794647101,0.042937864,Low,1,80,Female,Non-Hispanic Black,Medicare
+2798630101,0.09454195,Medium,0,64,Male,Non-Hispanic Black,Medicare + Medicaid
+2791043103,0.24305224,High,1,44,Male,Non-Hispanic Black,Medicaid
+2794927101,0.03887626,Low,0,68,Male,Non-Hispanic White,Medicare + Private
+2796194101,0.08740134,Medium,0,61,Female,Hispanic,Medicare + Private
+2798294101,0.057461854,Medium,0,37,Male,Non-Hispanic White,Private
+2798785101,0.0792705,Medium,1,57,Male,Non-Hispanic Black,Other/unspecified coverage
+2798406101,0.075309865,Medium,0,65,Female,Non-Hispanic White,Medicare + Private
+2796916101,0.0529088,Medium,0,85,Female,Non-Hispanic White,Medicare
+2797018101,0.12373507,High,0,55,Female,Hispanic,Medicaid
+2793214101,0.028555142,Low,0,65,Male,Non-Hispanic White,Medicare + Medicaid
+2797879101,0.09196348,Medium,0,58,Male,Hispanic,Medicare + Medicaid
+2792516101,0.087747246,Medium,0,70,Female,Non-Hispanic White,Medicare
+2794458101,0.15995012,High,0,64,Female,Non-Hispanic White,Private
+2791655101,0.063378625,Medium,0,54,Male,Non-Hispanic Black,Private
+2790838102,0.08224907,Medium,0,71,Female,Non-Hispanic Black,Medicare
+2796379101,0.032754257,Low,0,72,Female,Non-Hispanic White,Medicare
+2798017101,0.027848644,Low,0,67,Male,Non-Hispanic White,Medicare + Private
+2798153102,0.10071336,High,0,75,Male,Non-Hispanic Asian,Private
+2793280101,0.07260417,Medium,1,37,Female,Non-Hispanic White,Private
+2796292101,0.0610315,Medium,0,49,Male,Non-Hispanic White,Private
+2793589101,0.079335496,Medium,1,64,Male,Non-Hispanic Black,Medicare + Medicaid
+2791464102,0.046907764,Low,0,61,Female,Non-Hispanic White,Medicare + Medicaid + Private
+2793960101,0.037951663,Low,0,77,Female,Non-Hispanic White,Medicare
+2797448101,0.029141676,Low,0,74,Male,Non-Hispanic White,Medicare + Medicaid
+2790686101,0.038447093,Low,1,53,Male,Non-Hispanic White,Medicaid
+2796461102,0.06837417,Medium,0,72,Female,Non-Hispanic White,Medicare + Private
+2797907102,0.16673002,High,1,68,Female,Non-Hispanic White,Private
+2794903102,0.10887795,High,0,61,Female,Non-Hispanic White,Medicare
+2791242101,0.063610986,Medium,0,59,Male,Hispanic,Private
+2798007101,0.11416846,High,0,76,Male,Non-Hispanic Black,Medicare + Medicaid
+2795686101,0.05155111,Medium,0,68,Female,Non-Hispanic White,Medicare + Private
+2798457101,0.03225391,Low,0,84,Male,Non-Hispanic White,Medicare
+2791462101,0.061547983,Medium,0,68,Male,Non-Hispanic Asian,Medicare + Medicaid + Private
+2791734102,0.108633846,High,0,71,Male,Non-Hispanic White,Private
+2799318101,0.09042908,Medium,1,69,Female,Non-Hispanic White,Medicare
+2797752101,0.1376019,High,0,54,Female,Non-Hispanic White,Private
+2793062101,0.06252818,Medium,0,66,Male,Hispanic,Medicare + Private
+2790166101,0.040296137,Low,0,69,Male,Non-Hispanic White,Medicare + Private
+2790787101,0.08865858,Medium,0,61,Female,Non-Hispanic Black,Medicare + Medicaid
+2792490102,0.058955465,Medium,0,82,Male,Non-Hispanic White,Medicare + Medicaid
+2798869101,0.121446066,High,0,55,Female,Hispanic,Other/unspecified coverage
+2790300101,0.052888073,Medium,0,78,Female,Hispanic,Medicare
+2790984101,0.059576772,Medium,0,64,Male,Non-Hispanic White,Private
+2792016101,0.027483482,Low,0,58,Female,Non-Hispanic White,Private
+2798170105,0.060399517,Medium,0,67,Female,Non-Hispanic White,Medicare
+2795031101,0.13633488,High,0,85,Male,Non-Hispanic Black,Other/unspecified coverage
+2796577101,0.06888771,Medium,0,69,Female,Non-Hispanic Black,Medicare
+2793688102,0.054308403,Medium,0,68,Male,Non-Hispanic Asian,Medicare
+2793011101,0.0742601,Medium,0,66,Male,Non-Hispanic White,Medicare + Private
+2790141104,0.13198498,High,1,52,Male,Non-Hispanic Black,Medicare + Medicaid
+2793716101,0.059737492,Medium,0,70,Male,Non-Hispanic White,Medicare
+2790757101,0.03443497,Low,0,81,Female,Non-Hispanic White,Medicare
+2792923101,0.05226936,Medium,0,66,Male,Non-Hispanic White,Private
+2790711101,0.038650006,Low,0,60,Female,Non-Hispanic White,Medicare
+2799350101,0.048698228,Low,0,49,Male,Non-Hispanic White,Private
+2795041101,0.034079786,Low,0,65,Female,Non-Hispanic White,Medicare
+2795090101,0.16625912,High,0,51,Female,Hispanic,Private
+2791080101,0.067984216,Medium,0,80,Female,Non-Hispanic White,Medicare
+2795189101,0.05168801,Medium,0,57,Female,Non-Hispanic White,Medicaid
+2791247101,0.08054484,Medium,0,50,Female,Hispanic,Uninsured
+2799084101,0.08796574,Medium,0,52,Male,Non-Hispanic White,Private
+2797061102,0.19818255,High,1,61,Female,Non-Hispanic White,Uninsured
+2791493101,0.06501776,Medium,0,65,Female,Non-Hispanic White,Medicare + Private
+2792737101,0.036980968,Low,0,72,Male,Non-Hispanic White,Medicare
+2795034101,0.06703526,Medium,0,76,Female,Non-Hispanic White,Medicare
+2793226101,0.03126299,Low,0,68,Male,Non-Hispanic White,Medicare
+2796094101,0.07631948,Medium,0,72,Female,Non-Hispanic White,Medicare
+2796956101,0.03748569,Low,0,73,Male,Non-Hispanic White,Medicare + Private
+2795223101,0.19761142,High,0,49,Female,Non-Hispanic Black,Private
+2798712101,0.06540478,Medium,0,81,Male,Non-Hispanic White,Medicare + Medicaid
+2792027102,0.10841436,High,0,47,Female,Non-Hispanic Asian,Medicare + Medicaid
+2791145101,0.057603918,Medium,0,66,Male,Non-Hispanic White,Medicare + Private
+2799394101,0.048219427,Low,0,66,Male,Non-Hispanic White,Medicare
+2798330101,0.12394073,High,1,54,Female,Non-Hispanic Black,Private
+2796982101,0.04372128,Low,0,77,Female,Non-Hispanic White,Medicare
+2799001101,0.088143624,Medium,0,71,Female,Non-Hispanic White,Medicare + Private
+2791646101,0.104834504,High,0,70,Male,Non-Hispanic White,Medicare
+2795074101,0.08339908,Medium,0,71,Female,Non-Hispanic White,Private
+2799394102,0.13196963,High,0,66,Female,Non-Hispanic White,Medicare
+2794729101,0.025170317,Low,0,61,Male,Non-Hispanic White,Private
+2796906102,0.028966095,Low,0,72,Female,Non-Hispanic White,Medicare
+2792369102,0.15999748,High,1,41,Male,Non-Hispanic White,Private
+2791928102,0.39551288,High,0,52,Female,Hispanic,Uninsured
+2798353102,0.02730851,Low,0,68,Female,Non-Hispanic White,Medicare + Private
+2796100101,0.039724007,Low,0,66,Female,Non-Hispanic White,Medicare + Medicaid
+2795903101,0.17444916,High,0,41,Female,Hispanic,Private
+2791524101,0.0906833,Medium,0,73,Male,Non-Hispanic White,Medicare + Medicaid
+2793117102,0.034332514,Low,0,51,Male,Non-Hispanic White,Medicaid
+2790063102,0.08995844,Medium,0,69,Male,Non-Hispanic Other,Medicare + Private
+2796353101,0.031685866,Low,0,64,Female,Non-Hispanic White,Private
+2794888101,0.04753821,Low,0,69,Male,Non-Hispanic White,Medicare
+2790998101,0.059900597,Medium,0,68,Female,Non-Hispanic Other,Medicare
+2793388101,0.05029388,Medium,0,57,Female,Non-Hispanic White,Private
+2795074102,0.17652512,High,0,61,Male,Non-Hispanic White,Private
+2799099101,0.10889138,High,0,64,Female,Hispanic,Private
+2797933102,0.034312777,Low,0,63,Male,Non-Hispanic White,Private
+2796797102,0.15300645,High,0,35,Male,Hispanic,Private
+2793100101,0.043031745,Low,0,74,Male,Non-Hispanic White,Medicare + Private
+2790925102,0.06431791,Medium,0,81,Male,Non-Hispanic Black,Medicare + Private
+2793060102,0.08815742,Medium,0,63,Male,Non-Hispanic White,Private
+2793873101,0.036284972,Low,0,83,Female,Non-Hispanic White,Medicare
+2798094101,0.08516093,Medium,0,57,Female,Hispanic,Private
+2799131101,0.031231321,Low,0,79,Female,Non-Hispanic White,Medicare + Private
+2792922102,0.09264714,Medium,0,78,Male,Non-Hispanic White,Medicare
+2791113101,0.13410299,High,0,44,Female,Hispanic,Medicaid
+2798040101,0.16019763,High,0,67,Female,Non-Hispanic Black,Medicare
+2797131102,0.10413941,High,0,54,Female,Hispanic,Private
+2795730102,0.061945997,Medium,0,78,Male,Non-Hispanic White,Medicare
+2794872101,0.037347462,Low,0,85,Male,Non-Hispanic White,Medicare
+2799064102,0.04127512,Low,0,67,Male,Non-Hispanic White,Medicare + Private
+2794489102,0.04158218,Low,0,73,Female,Non-Hispanic White,Medicare
+2790101101,0.08941216,Medium,0,70,Female,Non-Hispanic White,Medicare + Private
+2799110101,0.032485064,Low,0,84,Female,Non-Hispanic White,Medicare + Private
+2797473101,0.059867546,Medium,0,74,Male,Non-Hispanic White,Medicare
+2798698101,0.08783047,Medium,0,52,Female,Non-Hispanic Black,Private
+2798625101,0.12612933,High,0,52,Male,Hispanic,Private
+2794396101,0.050412804,Medium,0,48,Female,Non-Hispanic White,Medicaid
+2797957102,0.025746873,Low,0,72,Male,Non-Hispanic White,Medicare + Private
+2795360101,0.037373118,Low,0,83,Female,Non-Hispanic White,Medicare
+2790843101,0.044230133,Low,0,62,Female,Non-Hispanic White,Private
+2791795101,0.2266814,High,0,61,Male,Non-Hispanic White,Private
+2796946101,0.071595766,Medium,0,75,Female,Hispanic,Medicare
+2796129102,0.03743887,Low,0,80,Male,Non-Hispanic White,Medicare
+2794168101,0.043643,Low,0,72,Female,Non-Hispanic White,Medicare + Private
+2798267101,0.049819227,Low,0,61,Male,Non-Hispanic White,Private
+2794624101,0.07183645,Medium,0,61,Male,Non-Hispanic White,Uninsured
+2796706101,0.04682698,Low,0,80,Male,Non-Hispanic White,Medicare
+2793605102,0.13958608,High,0,81,Male,Hispanic,Medicare
+2795369102,0.02192749,Low,0,69,Male,Non-Hispanic White,Medicare
+2795969101,0.053592518,Medium,0,70,Male,Hispanic,Medicare
+2790737101,0.054471683,Medium,0,78,Female,Non-Hispanic Black,Medicare
+2790100102,0.03762844,Low,0,63,Male,Non-Hispanic White,Private
+2797624102,0.2046358,High,0,67,Male,Non-Hispanic White,Medicare
+2791091101,0.06875573,Medium,0,83,Female,Non-Hispanic White,Medicare
+2796732101,0.08205439,Medium,0,61,Male,Hispanic,Uninsured
+2793237102,0.036119677,Low,0,69,Male,Non-Hispanic White,Medicare + Private
+2793474102,0.06180847,Medium,0,80,Female,Non-Hispanic White,Medicare
+2793569101,0.1204236,High,0,59,Female,Non-Hispanic Black,Private
+2795631101,0.080728956,Medium,0,47,Male,Non-Hispanic Black,Private
+2797984102,0.046712726,Low,0,59,Male,Hispanic,Medicaid
+2792246102,0.047733847,Low,0,85,Male,Non-Hispanic Black,Medicare
+2792989101,0.15631591,High,0,62,Male,Non-Hispanic Asian,Private
+2795064101,0.029297737,Low,0,76,Female,Non-Hispanic White,Medicare + Private
+2797534101,0.037732758,Low,0,85,Female,Non-Hispanic White,Medicare
+2790903102,0.08522056,Medium,0,49,Female,Non-Hispanic White,Medicaid
+2794277101,0.03527552,Low,0,74,Female,Non-Hispanic White,Medicare + Private
+2793497101,0.03856538,Low,0,64,Female,Non-Hispanic White,Medicare + Private
+2795543101,0.1335338,High,0,51,Male,Non-Hispanic White,Private
+2790011101,0.11078474,High,0,69,Male,Non-Hispanic White,Medicare + Private
+2790324102,0.053055823,Medium,0,66,Male,Non-Hispanic White,Medicare
+2798949101,0.10534771,High,0,70,Male,Non-Hispanic White,Medicare
+2797018102,0.15593249,High,0,57,Male,Hispanic,Medicaid
+2795561101,0.04876007,Low,0,59,Male,Non-Hispanic White,Private
+2799158101,0.039932087,Low,0,64,Female,Non-Hispanic White,Private
+2796376101,0.03757419,Low,0,85,Female,Non-Hispanic White,Medicare
+2796707102,0.03416727,Low,0,73,Male,Hispanic,Medicare + Medicaid
+2796300101,0.12850265,High,0,54,Female,Non-Hispanic Black,Private
+2793015102,0.044313423,Low,0,77,Male,Non-Hispanic White,Medicare
+2797960101,0.1501824,High,0,47,Male,Non-Hispanic Asian,Private
+2794397102,0.03501929,Low,0,69,Male,Non-Hispanic White,Medicare
+2797206102,0.03409079,Low,0,76,Male,Non-Hispanic White,Medicare
+2796828101,0.07046058,Medium,0,50,Male,Non-Hispanic White,Private
+2796206101,0.07623239,Medium,0,80,Female,Non-Hispanic Black,Medicare + Medicaid
+2798735101,0.027574092,Low,0,76,Female,Non-Hispanic White,Medicare + Private
+2798120101,0.050608937,Medium,0,70,Male,Non-Hispanic Black,Medicare
+2798875101,0.06546346,Medium,0,71,Female,Non-Hispanic White,Medicare + Private
+2799582101,0.11599903,High,0,64,Female,Non-Hispanic White,Medicare
+2791124101,0.033102687,Low,0,71,Female,Non-Hispanic Other,Medicare + Private
+2792693102,0.033233114,Low,0,65,Male,Non-Hispanic White,Medicare + Private
+2796006101,0.09270459,Medium,0,54,Male,Hispanic,Private
+2795754104,0.07074006,Medium,0,63,Female,Non-Hispanic White,Medicaid
+2798747102,0.12710808,High,0,68,Female,Non-Hispanic White,Medicare + Private
+2797484101,0.08919809,Medium,1,64,Male,Non-Hispanic Black,Uninsured
+2796278102,0.025739647,Low,0,79,Male,Non-Hispanic White,Medicare
+2793533101,0.049938805,Low,0,85,Female,Non-Hispanic White,Medicare
+2793064101,0.027099175,Low,0,84,Female,Non-Hispanic White,Medicare
+2799290101,0.08394596,Medium,0,71,Female,Non-Hispanic White,Medicare
+2791992101,0.067143865,Medium,0,74,Male,Non-Hispanic Black,Medicare + Medicaid
+2796599101,0.0952637,Medium,0,62,Female,Hispanic,Other/unspecified coverage
+2793824101,0.10560908,High,0,48,Male,Hispanic,Private
+2798488101,0.04561449,Low,0,81,Female,Hispanic,Medicare
+2792392101,0.06600426,Medium,0,85,Female,Non-Hispanic Black,Medicare
+2797141102,0.06897057,Medium,0,67,Female,Non-Hispanic White,Medicare
+2793579102,0.05091109,Medium,0,66,Male,Non-Hispanic White,Medicare + Private
+2799700101,0.17262137,High,0,85,Female,Non-Hispanic Black,Medicare
+2791269101,0.055037905,Medium,0,80,Male,Non-Hispanic White,Medicare
+2795965101,0.22485119,High,0,54,Female,Non-Hispanic Asian,Private
+2792622102,0.118645646,High,0,79,Female,Non-Hispanic White,Medicare
+2799557102,0.16347067,High,0,67,Male,Hispanic,Private
+2797419101,0.030685404,Low,0,72,Male,Non-Hispanic White,Medicare
+2799675101,0.058216084,Medium,0,63,Female,Non-Hispanic White,Medicaid
+2797921102,0.027127566,Low,0,61,Male,Non-Hispanic White,Medicare
+2793597102,0.07674758,Medium,0,47,Female,Non-Hispanic Other,Private
+2792422101,0.35256255,High,1,35,Male,Non-Hispanic Asian,Private
+2791649101,0.083402745,Medium,0,75,Male,Non-Hispanic White,Other/unspecified coverage
+2791463102,0.05179101,Medium,0,40,Male,Non-Hispanic White,Private
+2795049101,0.031210406,Low,0,66,Male,Non-Hispanic White,Medicare
+2790677104,0.1380084,High,0,65,Male,Non-Hispanic Black,Uninsured
+2797454101,0.067522,Medium,0,67,Male,Non-Hispanic White,Medicare
+2798587101,0.039716266,Low,0,85,Female,Non-Hispanic White,Medicare + Private
+2797572102,0.23410147,High,0,56,Male,Non-Hispanic Black,Private
+2794342101,0.035995364,Low,0,61,Female,Non-Hispanic White,Medicaid
+2795373101,0.06530366,Medium,0,79,Female,Non-Hispanic Black,Medicare
+2796617101,0.021312017,Low,0,72,Female,Non-Hispanic White,Medicare
+2795594101,0.040661488,Low,0,68,Male,Non-Hispanic White,Medicare
+2790423101,0.18436627,High,0,66,Male,Non-Hispanic White,Medicare
+2798192101,0.029157713,Low,0,74,Female,Non-Hispanic White,Medicaid + Private
+2792346102,0.06804623,Medium,0,65,Female,Non-Hispanic White,Medicare + Private
+2796439101,0.03198619,Low,0,64,Female,Non-Hispanic White,Private
+2798782101,0.069918565,Medium,0,71,Female,Non-Hispanic White,Medicare + Private
+2797906102,0.12375097,High,0,61,Male,Non-Hispanic White,Other/unspecified coverage
+2793885101,0.12065446,High,0,49,Female,Non-Hispanic White,Other/unspecified coverage
+2796696101,0.05706887,Medium,0,48,Male,Non-Hispanic White,Private
+2793858101,0.020344224,Low,0,84,Female,Non-Hispanic White,Medicare
+2799698101,0.05338486,Medium,0,64,Female,Non-Hispanic White,Uninsured
+2798160101,0.14644057,High,0,29,Male,Non-Hispanic White,Private
+2796722101,0.14799199,High,1,72,Male,Hispanic,Medicare
+2798330102,0.07073277,Medium,0,57,Male,Non-Hispanic Black,Private
+2798083102,0.049810857,Low,0,75,Male,Non-Hispanic White,Medicare + Private
+2793412101,0.09460914,Medium,1,63,Male,Non-Hispanic White,Uninsured
+2797483102,0.07279319,Medium,0,74,Male,Non-Hispanic White,Medicare + Private
+2798774102,0.093427785,Medium,0,66,Male,Non-Hispanic White,Medicare + Private
+2790165102,0.045913845,Low,0,74,Male,Non-Hispanic Asian,Medicare
+2790481101,0.029530386,Low,0,71,Female,Non-Hispanic White,Medicare + Private
+2794528101,0.027416894,Low,0,54,Female,Non-Hispanic White,Private
+2798327101,0.036607277,Low,0,73,Female,Non-Hispanic White,Medicare + Private
+2799396101,0.1209105,High,1,73,Female,Hispanic,Medicare + Medicaid
+2792370101,0.048500206,Low,0,66,Female,Non-Hispanic White,Medicare
+2792134101,0.05312468,Medium,0,67,Male,Non-Hispanic White,Medicare + Medicaid
+2792723101,0.36660054,High,0,58,Female,Non-Hispanic White,Private
+2797579102,0.02650147,Low,0,83,Female,Non-Hispanic White,Medicare
+2794392101,0.03631598,Low,0,79,Male,Non-Hispanic White,Medicare
+2794465101,0.05318996,Medium,0,79,Male,Non-Hispanic Other,Medicare
+2797206101,0.07636457,Medium,0,75,Female,Non-Hispanic White,Medicare
+2794637102,0.048265513,Low,1,55,Male,Non-Hispanic White,Medicaid
+2793775105,0.028757717,Low,0,85,Female,Non-Hispanic White,Medicare
+2798899101,0.03171424,Low,0,57,Male,Non-Hispanic White,Uninsured
+2792091101,0.14994474,High,0,64,Male,Hispanic,Private
+2795399102,0.039606825,Low,0,71,Male,Non-Hispanic White,Medicare
+2794790102,0.054063167,Medium,0,41,Male,Non-Hispanic White,Private
+2798748101,0.032170005,Low,0,59,Female,Non-Hispanic White,Private
+2791522101,0.027078925,Low,0,80,Female,Non-Hispanic White,Medicare
+2797448102,0.040953185,Low,0,75,Female,Non-Hispanic White,Medicare + Medicaid
+2796721101,0.14820911,High,0,78,Female,Non-Hispanic Black,Uninsured
+2796221101,0.060302913,Medium,0,77,Female,Non-Hispanic White,Medicare + Private
+2795544101,0.032458987,Low,0,77,Male,Non-Hispanic White,Medicare
+2792781102,0.10000852,High,1,59,Male,Non-Hispanic White,Private
+2793017101,0.12768482,High,0,68,Female,Non-Hispanic White,Medicare
+2791609101,0.12578525,High,0,78,Female,Non-Hispanic Black,Medicare + Private
+2793054101,0.059120003,Medium,0,63,Male,Non-Hispanic White,Private
+2791609102,0.059645634,Medium,0,81,Male,Non-Hispanic Black,Medicare + Private
+2790087101,0.054363493,Medium,1,79,Female,Non-Hispanic Black,Medicare
+2792229101,0.11418006,High,0,64,Male,Non-Hispanic White,Uninsured
+2797027101,0.073299885,Medium,0,66,Male,Non-Hispanic White,Medicare + Private
+2791240102,0.040482484,Low,0,57,Male,Non-Hispanic White,Private
+2791755101,0.074914455,Medium,0,35,Female,Non-Hispanic White,Medicaid
+2791810101,0.030233938,Low,0,84,Female,Non-Hispanic White,Medicare + Private
+2793824102,0.0941302,Medium,0,50,Female,Hispanic,Private
+2795789101,0.12815663,High,1,61,Female,Non-Hispanic Black,Uninsured
+2799607101,0.34637722,High,0,56,Male,Non-Hispanic Other,Private
+2797969101,0.03659407,Low,0,69,Male,Non-Hispanic White,Medicare + Private
+2793988101,0.049907874,Low,0,64,Female,Non-Hispanic White,Medicare
+2799055101,0.18293147,High,0,69,Female,Non-Hispanic White,Medicare
+2797925101,0.089161724,Medium,0,68,Female,Hispanic,Medicare
+2799582102,0.04977878,Low,0,65,Male,Non-Hispanic White,Medicare
+2794393102,0.076389514,Medium,0,85,Male,Non-Hispanic White,Medicare + Private
