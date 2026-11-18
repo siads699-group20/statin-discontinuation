@@ -13,7 +13,7 @@ HISPANX_round_1,Hispanic ethnicity,code,,False
 EDUCYR_round_1,Years of education,years,,False
 HIDEG_round_1,Highest degree,code,,False
 RTHLTH_round_1,Self-rated physical health,code,,False
-MNHLTH_round_1,Self-rated mental health,code,cond_depression,True
+MNHLTH_round_1,Self-rated mental health,code,mental_health,True
 INS_round_1,Has health insurance,code,insurance_type,True
 MCARE_round_1,Has Medicare,code,insurance_type,True
 MCAID_round_1,Has Medicaid,code,insurance_type,True
