@@ -1,0 +1,5 @@
+subpop_id,subpopulation,rag_driver,actionable,evidence,n_sample,people_represented,pct_discontinued_weighted,pct_discontinued_rest
+S01,"Adults rating their mental health good, fair, or poor",mental_health,True,Mental health good / fair / poor vs excellent: OR 3.8 / 3.7 / 9.5,576,17828680,11.8,5.6
+S02,Adults taking 0-2 different medications (round 2),med_count,True,Each extra different drug: OR 0.73 (fewer drugs = higher odds),324,10921845,15.7,5.6
+S03,Non-Hispanic Black adults,,False,Non-Hispanic Black vs Non-Hispanic White: OR 2.6 (p = 0.009),170,3880920,14.3,7.6
+S04,Non-Hispanic Asian adults,,False,Non-Hispanic Asian vs Non-Hispanic White: OR 3.2 (p = 0.014),50,1960705,18.6,7.7

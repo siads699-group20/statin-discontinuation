@@ -1,0 +1,38 @@
+variable,label,odds_ratio_weighted,ci_lower_weighted,ci_upper_weighted,p_value_weighted,significant
+MNHLTH_round_1,Mental health: Good (vs Excellent),3.812,1.979,7.3427,0.0001,True
+distinct_drug_count_round_2,"Different medications, round 2",0.7297,0.6135,0.8679,0.0004,True
+rx_purchase_count_round_2,"Prescription fills (all drugs), round 2",1.062,1.026,1.0992,0.0006,True
+MNHLTH_round_1,Mental health: Fair (vs Excellent),3.7164,1.4492,9.5307,0.0063,True
+MNHLTH_round_1,Mental health: Poor (vs Excellent),9.5027,1.7619,51.2523,0.0088,True
+RACETHX_round_1,Race: Non-Hispanic Black (vs Non-Hispanic White),2.5572,1.2612,5.1851,0.0092,True
+RACETHX_round_1,Race: Non-Hispanic Asian (vs Non-Hispanic White),3.1673,1.2601,7.9615,0.0142,True
+HIDEG_round_1,Highest degree: GED (vs No degree),0.1955,0.0347,1.101,0.0642,False
+rx_purchase_count_round_1,"Prescription fills (all drugs), round 1",1.0485,0.9968,1.1029,0.0663,False
+MNHLTH_round_1,Mental health: Very good (vs Excellent),1.6704,0.875,3.189,0.1199,False
+INS_round_1,Insured: No (vs Yes),2.3245,0.8014,6.7428,0.1206,False
+statin_purchase_count_round_2,Statin fills in round 2,0.8342,0.6596,1.055,0.1302,False
+HIDEG_round_1,Highest degree: Doctorate (vs No degree),0.1493,0.0126,1.7768,0.1323,False
+distinct_drug_count_round_1,"Different medications, round 1",0.9055,0.7891,1.0392,0.1577,False
+statin_purchase_count_round_1,Statin fills in round 1,0.7916,0.5664,1.1063,0.1712,False
+single_fill,Only one statin fill in rounds 1-2,1.5894,0.7883,3.2045,0.1953,False
+AGE_round_1,Age,0.9821,0.9514,1.0137,0.2634,False
+RACETHX_round_1,Race: Non-Hispanic Other/Multiple (vs Non-Hispanic White),2.1771,0.4803,9.8674,0.313,False
+RTHLTH_round_1,Physical health: Fair (vs Excellent),0.5854,0.1841,1.8616,0.3643,False
+MCARE_round_1,Medicare: No (vs Yes),1.3917,0.6242,3.1029,0.4192,False
+PRIVAT_round_1,Private insurance: No (vs Yes),0.6776,0.2568,1.7877,0.4317,False
+PMEDIN_round_1,Rx coverage: No (vs Yes),1.5241,0.5315,4.3703,0.433,False
+SEX_round_1,Sex: Female (vs Male),0.8604,0.5413,1.3675,0.5247,False
+HIDEG_round_1,Highest degree: Other degree (vs No degree),1.4437,0.3585,5.8137,0.6054,False
+HIDEG_round_1,Highest degree: Bachelor's (vs No degree),1.3845,0.2947,6.5035,0.6802,False
+RTHLTH_round_1,Physical health: Poor (vs Excellent),0.7968,0.2393,2.6529,0.7112,False
+RTHLTH_round_1,Physical health: Good (vs Excellent),0.8458,0.3408,2.0992,0.718,False
+RTHLTH_round_1,Physical health: Very good (vs Excellent),0.8683,0.402,1.8758,0.7194,False
+HIDEG_round_1,Highest degree: High school diploma (vs No degree),1.166,0.415,3.2755,0.7708,False
+active_condition_count_round_2,"Active medical conditions, round 2",1.0241,0.8703,1.2051,0.7741,False
+HIDEG_round_1,Highest degree: Master's (vs No degree),1.2938,0.222,7.5402,0.7746,False
+RACETHX_round_1,Race: Hispanic (vs Non-Hispanic White),0.9106,0.4352,1.9053,0.8037,False
+EDUCYR_round_1,Years of education,0.9805,0.8274,1.1619,0.8201,False
+statin_rx_cost_round_2,"Statin out-of-pocket cost, round 2",0.9992,0.9914,1.007,0.8341,False
+active_condition_count_round_1,"Active medical conditions, round 1",0.9823,0.8275,1.166,0.8381,False
+statin_rx_cost_round_1,"Statin out-of-pocket cost, round 1",1.0009,0.9915,1.0104,0.8548,False
+MCAID_round_1,Medicaid: No (vs Yes),1.0107,0.4679,2.1831,0.9785,False

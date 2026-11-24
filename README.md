@@ -44,15 +44,16 @@ An early-warning system that predicts which statin users are at risk of stopping
 
 ## Notebooks
 
+Shared notebooks run first. **Phase 1** (`p1_`) is the earlier prediction approach; **Phase 2** (`p2_`) is the inference approach used in the final app.
+
 | Notebook | What it does |
 |----------|--------------|
-| 01_run_pipeline | Builds the study cohort and analysis dataset |
-| 02_eda | Explores the data |
-| 03_modeling | add the final models eval|
-| 04_model_evaluation | Checks performance, calibration, and fairness across subgroups |
-| 05_rag | Builds the guidance search (RAG) |
-| 06_agent | Drafts suggested next actions with LangGraph |
-| 07_insights_visualizations | Charts and key findings |
+| 01_run_pipeline | Builds the study cohort and analysis dataset (shared) |
+| 02_eda | Explores the data (shared) |
+| p1_03_modeling | Phase 1: trains and compares prediction models |
+| p1_04_model_evaluation | Phase 1: checks performance, calibration, and fairness across subgroups |
+| p1_04b_explainability_fairness | Phase 1: SHAP drivers and fairness checks |
+| p2_03_inference_model | Phase 2: survey-weighted logistic regression; writes `results/inference/` |
 
 ## Documentation
 
@@ -77,6 +78,10 @@ We use public **MEPS (Medical Expenditure Panel Survey)** data from the Agency f
 - The data is **not stored in this repo**.
 - The file list and download links are in [MEPS data sources](docs/meps_sources.md).
 - The download script saves files to `data/raw/` on your computer. These files are never edited.
+
+### Patient IDs
+
+The app and the RAG use a project patient ID (`P0001`–`P1339`) instead of the MEPS person ID (`DUPERSID`). The map between the two is created privately and is not shared or committed (`private/` is git-ignored), to protect MEPS participant privacy. `notebooks/08_project_integration.ipynb` uses the map to convert the patient-level files before the RAG and the app read them.
 
 ---
 
